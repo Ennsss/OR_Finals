@@ -30,6 +30,15 @@
         {
             txt_title = new Label();
             panel1 = new Panel();
+            label44 = new Label();
+            label43 = new Label();
+            variable2 = new Label();
+            variable1 = new Label();
+            label39 = new Label();
+            label38 = new Label();
+            label37 = new Label();
+            label36 = new Label();
+            label10 = new Label();
             label1 = new Label();
             slack3 = new TextBox();
             label2 = new Label();
@@ -37,16 +46,30 @@
             label8 = new Label();
             slack1 = new TextBox();
             label7 = new Label();
-            variable4 = new TextBox();
             label6 = new Label();
-            variable3 = new TextBox();
             label5 = new Label();
-            variable1 = new TextBox();
-            variable2 = new TextBox();
             label3 = new Label();
             label26 = new Label();
             label4 = new Label();
             panel2 = new Panel();
+            artificial1 = new Label();
+            label88 = new Label();
+            label84 = new Label();
+            label80 = new Label();
+            label76 = new Label();
+            label72 = new Label();
+            lblslacks55 = new Label();
+            lblslacks44 = new Label();
+            lblslacks33 = new Label();
+            lblslacks22 = new Label();
+            lblslacks1 = new Label();
+            label42 = new Label();
+            label41 = new Label();
+            label40 = new Label();
+            x4Finalanswer = new Label();
+            x3Finalanswer = new Label();
+            x2Finalanswer = new Label();
+            x1Finalanswer = new Label();
             label35 = new Label();
             label34 = new Label();
             label33 = new Label();
@@ -97,24 +120,11 @@
             txtcons3 = new TextBox();
             txtcons1 = new TextBox();
             label30 = new Label();
-            label10 = new Label();
-            label36 = new Label();
-            label37 = new Label();
-            label38 = new Label();
-            label39 = new Label();
-            x1Finalanswer = new Label();
-            x2Finalanswer = new Label();
-            x3Finalanswer = new Label();
-            x4Finalanswer = new Label();
-            label40 = new Label();
-            label41 = new Label();
-            label42 = new Label();
-            label43 = new Label();
-            label44 = new Label();
-            label45 = new Label();
-            label46 = new Label();
-            label47 = new Label();
-            label48 = new Label();
+            panel3 = new Panel();
+            variable4 = new Label();
+            variable3 = new Label();
+            variable22 = new Label();
+            variable11 = new Label();
             label49 = new Label();
             label50 = new Label();
             label51 = new Label();
@@ -123,25 +133,15 @@
             label54 = new Label();
             label55 = new Label();
             label56 = new Label();
-            label57 = new Label();
-            label58 = new Label();
-            label59 = new Label();
             label60 = new Label();
-            label61 = new Label();
             label62 = new Label();
-            label63 = new Label();
-            label64 = new Label();
-            label65 = new Label();
-            label66 = new Label();
-            label67 = new Label();
-            label68 = new Label();
-            label69 = new Label();
-            label70 = new Label();
-            label71 = new Label();
-            label72 = new Label();
-            label73 = new Label();
+            label45 = new Label();
+            label46 = new Label();
+            label47 = new Label();
+            label48 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // txt_title
@@ -149,7 +149,7 @@
             txt_title.BackColor = Color.FromArgb(14, 70, 163);
             txt_title.Font = new Font("Tahoma", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txt_title.ForeColor = SystemColors.Control;
-            txt_title.Location = new Point(0, 0);
+            txt_title.Location = new Point(-200, 9);
             txt_title.Name = "txt_title";
             txt_title.Size = new Size(1487, 87);
             txt_title.TabIndex = 5;
@@ -159,6 +159,10 @@
             // panel1
             // 
             panel1.BackColor = Color.WhiteSmoke;
+            panel1.Controls.Add(label44);
+            panel1.Controls.Add(label43);
+            panel1.Controls.Add(variable2);
+            panel1.Controls.Add(variable1);
             panel1.Controls.Add(label39);
             panel1.Controls.Add(label38);
             panel1.Controls.Add(label37);
@@ -171,12 +175,8 @@
             panel1.Controls.Add(label8);
             panel1.Controls.Add(slack1);
             panel1.Controls.Add(label7);
-            panel1.Controls.Add(variable4);
             panel1.Controls.Add(label6);
-            panel1.Controls.Add(variable3);
             panel1.Controls.Add(label5);
-            panel1.Controls.Add(variable1);
-            panel1.Controls.Add(variable2);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label26);
             panel1.Controls.Add(label4);
@@ -186,10 +186,92 @@
             panel1.TabIndex = 59;
             panel1.Paint += panel1_Paint;
             // 
+            // label44
+            // 
+            label44.Font = new Font("Tahoma", 10F);
+            label44.Location = new Point(415, 42);
+            label44.Name = "label44";
+            label44.Size = new Size(46, 20);
+            label44.TabIndex = 134;
+            label44.Text = "x4+";
+            // 
+            // label43
+            // 
+            label43.Font = new Font("Tahoma", 10F);
+            label43.Location = new Point(322, 42);
+            label43.Name = "label43";
+            label43.Size = new Size(48, 20);
+            label43.TabIndex = 133;
+            label43.Text = "x3 +";
+            // 
+            // variable2
+            // 
+            variable2.Font = new Font("Tahoma", 10F);
+            variable2.Location = new Point(252, 42);
+            variable2.Name = "variable2";
+            variable2.Size = new Size(33, 20);
+            variable2.TabIndex = 132;
+            variable2.Text = "x2 +";
+            // 
+            // variable1
+            // 
+            variable1.Font = new Font("Tahoma", 10F);
+            variable1.Location = new Point(180, 42);
+            variable1.Name = "variable1";
+            variable1.Size = new Size(33, 20);
+            variable1.TabIndex = 131;
+            variable1.Text = "x1";
+            variable1.Click += variable1_Click;
+            // 
+            // label39
+            // 
+            label39.Font = new Font("Tahoma", 10F);
+            label39.Location = new Point(898, 45);
+            label39.Name = "label39";
+            label39.Size = new Size(70, 22);
+            label39.TabIndex = 130;
+            label39.Text = "+ Ma";
+            // 
+            // label38
+            // 
+            label38.Font = new Font("Tahoma", 10F);
+            label38.Location = new Point(854, 47);
+            label38.Name = "label38";
+            label38.Size = new Size(70, 22);
+            label38.TabIndex = 129;
+            label38.Text = "+ Ma";
+            // 
+            // label37
+            // 
+            label37.Font = new Font("Tahoma", 10F);
+            label37.Location = new Point(812, 47);
+            label37.Name = "label37";
+            label37.Size = new Size(70, 22);
+            label37.TabIndex = 128;
+            label37.Text = "+ Ma";
+            // 
+            // label36
+            // 
+            label36.Font = new Font("Tahoma", 10F);
+            label36.Location = new Point(769, 47);
+            label36.Name = "label36";
+            label36.Size = new Size(70, 22);
+            label36.TabIndex = 127;
+            label36.Text = "+ Ma";
+            // 
+            // label10
+            // 
+            label10.Font = new Font("Tahoma", 10F);
+            label10.Location = new Point(727, 47);
+            label10.Name = "label10";
+            label10.Size = new Size(70, 22);
+            label10.TabIndex = 126;
+            label10.Text = "+ Ma";
+            // 
             // label1
             // 
             label1.Font = new Font("Tahoma", 10F);
-            label1.Location = new Point(672, 44);
+            label1.Location = new Point(693, 43);
             label1.Name = "label1";
             label1.Size = new Size(42, 23);
             label1.TabIndex = 73;
@@ -198,7 +280,7 @@
             // 
             // slack3
             // 
-            slack3.Location = new Point(635, 44);
+            slack3.Location = new Point(656, 43);
             slack3.Name = "slack3";
             slack3.Size = new Size(31, 23);
             slack3.TabIndex = 72;
@@ -206,7 +288,7 @@
             // label2
             // 
             label2.Font = new Font("Tahoma", 10F);
-            label2.Location = new Point(590, 45);
+            label2.Location = new Point(611, 44);
             label2.Name = "label2";
             label2.Size = new Size(48, 23);
             label2.TabIndex = 71;
@@ -215,7 +297,7 @@
             // 
             // slack2
             // 
-            slack2.Location = new Point(553, 44);
+            slack2.Location = new Point(574, 43);
             slack2.Name = "slack2";
             slack2.Size = new Size(31, 23);
             slack2.TabIndex = 70;
@@ -223,7 +305,7 @@
             // label8
             // 
             label8.Font = new Font("Tahoma", 10F);
-            label8.Location = new Point(511, 44);
+            label8.Location = new Point(532, 43);
             label8.Name = "label8";
             label8.Size = new Size(49, 23);
             label8.TabIndex = 69;
@@ -232,7 +314,7 @@
             // 
             // slack1
             // 
-            slack1.Location = new Point(474, 44);
+            slack1.Location = new Point(495, 43);
             slack1.Name = "slack1";
             slack1.Size = new Size(31, 23);
             slack1.TabIndex = 68;
@@ -240,36 +322,22 @@
             // label7
             // 
             label7.Font = new Font("Tahoma", 10F);
-            label7.Location = new Point(434, 44);
+            label7.Location = new Point(455, 43);
             label7.Name = "label7";
             label7.Size = new Size(49, 23);
             label7.TabIndex = 66;
             label7.Text = "x4 +";
             label7.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // variable4
-            // 
-            variable4.Location = new Point(397, 44);
-            variable4.Name = "variable4";
-            variable4.Size = new Size(31, 23);
-            variable4.TabIndex = 65;
-            // 
             // label6
             // 
             label6.Font = new Font("Tahoma", 10F);
-            label6.Location = new Point(360, 44);
+            label6.Location = new Point(370, 46);
             label6.Name = "label6";
             label6.Size = new Size(49, 23);
             label6.TabIndex = 64;
             label6.Text = "x3 + ";
             label6.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // variable3
-            // 
-            variable3.Location = new Point(323, 44);
-            variable3.Name = "variable3";
-            variable3.Size = new Size(31, 23);
-            variable3.TabIndex = 63;
             // 
             // label5
             // 
@@ -280,20 +348,6 @@
             label5.TabIndex = 62;
             label5.Text = "x2 + ";
             label5.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // variable1
-            // 
-            variable1.Location = new Point(173, 43);
-            variable1.Name = "variable1";
-            variable1.Size = new Size(31, 23);
-            variable1.TabIndex = 5;
-            // 
-            // variable2
-            // 
-            variable2.Location = new Point(247, 43);
-            variable2.Name = "variable2";
-            variable2.Size = new Size(31, 23);
-            variable2.TabIndex = 61;
             // 
             // label3
             // 
@@ -328,37 +382,17 @@
             // panel2
             // 
             panel2.BackColor = Color.WhiteSmoke;
-            panel2.Controls.Add(label68);
-            panel2.Controls.Add(label69);
-            panel2.Controls.Add(label70);
-            panel2.Controls.Add(label71);
+            panel2.Controls.Add(artificial1);
+            panel2.Controls.Add(label88);
+            panel2.Controls.Add(label84);
+            panel2.Controls.Add(label80);
+            panel2.Controls.Add(label76);
             panel2.Controls.Add(label72);
-            panel2.Controls.Add(label73);
-            panel2.Controls.Add(label63);
-            panel2.Controls.Add(label64);
-            panel2.Controls.Add(label65);
-            panel2.Controls.Add(label66);
-            panel2.Controls.Add(label67);
-            panel2.Controls.Add(label58);
-            panel2.Controls.Add(label59);
-            panel2.Controls.Add(label60);
-            panel2.Controls.Add(label61);
-            panel2.Controls.Add(label62);
-            panel2.Controls.Add(label53);
-            panel2.Controls.Add(label54);
-            panel2.Controls.Add(label55);
-            panel2.Controls.Add(label56);
-            panel2.Controls.Add(label57);
-            panel2.Controls.Add(label48);
-            panel2.Controls.Add(label49);
-            panel2.Controls.Add(label50);
-            panel2.Controls.Add(label51);
-            panel2.Controls.Add(label52);
-            panel2.Controls.Add(label47);
-            panel2.Controls.Add(label46);
-            panel2.Controls.Add(label45);
-            panel2.Controls.Add(label44);
-            panel2.Controls.Add(label43);
+            panel2.Controls.Add(lblslacks55);
+            panel2.Controls.Add(lblslacks44);
+            panel2.Controls.Add(lblslacks33);
+            panel2.Controls.Add(lblslacks22);
+            panel2.Controls.Add(lblslacks1);
             panel2.Controls.Add(label42);
             panel2.Controls.Add(label41);
             panel2.Controls.Add(label40);
@@ -422,10 +456,182 @@
             panel2.TabIndex = 60;
             panel2.Paint += panel2_Paint;
             // 
+            // artificial1
+            // 
+            artificial1.Font = new Font("Tahoma", 10F);
+            artificial1.Location = new Point(598, 51);
+            artificial1.Name = "artificial1";
+            artificial1.Size = new Size(49, 23);
+            artificial1.TabIndex = 183;
+            artificial1.Text = "+a1";
+            artificial1.TextAlign = ContentAlignment.MiddleCenter;
+            artificial1.Click += artificial1_Click_1;
+            // 
+            // label88
+            // 
+            label88.Font = new Font("Tahoma", 10F);
+            label88.Location = new Point(598, 233);
+            label88.Name = "label88";
+            label88.Size = new Size(44, 23);
+            label88.TabIndex = 181;
+            label88.Text = "+a5";
+            label88.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label84
+            // 
+            label84.Font = new Font("Tahoma", 10F);
+            label84.Location = new Point(598, 183);
+            label84.Name = "label84";
+            label84.Size = new Size(44, 23);
+            label84.TabIndex = 175;
+            label84.Text = "+a4";
+            label84.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label80
+            // 
+            label80.Font = new Font("Tahoma", 10F);
+            label80.Location = new Point(598, 137);
+            label80.Name = "label80";
+            label80.Size = new Size(44, 23);
+            label80.TabIndex = 169;
+            label80.Text = "+a3";
+            label80.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label76
+            // 
+            label76.Font = new Font("Tahoma", 10F);
+            label76.Location = new Point(598, 92);
+            label76.Name = "label76";
+            label76.Size = new Size(44, 23);
+            label76.TabIndex = 163;
+            label76.Text = "+a2";
+            label76.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label72
+            // 
+            label72.Location = new Point(0, 0);
+            label72.Name = "label72";
+            label72.Size = new Size(100, 23);
+            label72.TabIndex = 182;
+            // 
+            // lblslacks55
+            // 
+            lblslacks55.Font = new Font("Tahoma", 10F);
+            lblslacks55.Location = new Point(540, 233);
+            lblslacks55.Name = "lblslacks55";
+            lblslacks55.Size = new Size(44, 23);
+            lblslacks55.TabIndex = 155;
+            lblslacks55.Text = "s5";
+            lblslacks55.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // lblslacks44
+            // 
+            lblslacks44.Font = new Font("Tahoma", 10F);
+            lblslacks44.Location = new Point(540, 183);
+            lblslacks44.Name = "lblslacks44";
+            lblslacks44.Size = new Size(44, 23);
+            lblslacks44.TabIndex = 149;
+            lblslacks44.Text = "s4";
+            lblslacks44.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // lblslacks33
+            // 
+            lblslacks33.Font = new Font("Tahoma", 10F);
+            lblslacks33.Location = new Point(540, 137);
+            lblslacks33.Name = "lblslacks33";
+            lblslacks33.Size = new Size(44, 23);
+            lblslacks33.TabIndex = 143;
+            lblslacks33.Text = "s3";
+            lblslacks33.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // lblslacks22
+            // 
+            lblslacks22.Font = new Font("Tahoma", 10F);
+            lblslacks22.Location = new Point(540, 93);
+            lblslacks22.Name = "lblslacks22";
+            lblslacks22.Size = new Size(44, 23);
+            lblslacks22.TabIndex = 137;
+            lblslacks22.Text = "s2";
+            lblslacks22.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // lblslacks1
+            // 
+            lblslacks1.Font = new Font("Tahoma", 10F);
+            lblslacks1.Location = new Point(543, 51);
+            lblslacks1.Name = "lblslacks1";
+            lblslacks1.Size = new Size(49, 23);
+            lblslacks1.TabIndex = 131;
+            lblslacks1.Text = "s1";
+            lblslacks1.TextAlign = ContentAlignment.MiddleCenter;
+            lblslacks1.Click += lblslacks1_Click;
+            // 
+            // label42
+            // 
+            label42.Font = new Font("Tahoma", 12F);
+            label42.Location = new Point(474, 328);
+            label42.Name = "label42";
+            label42.Size = new Size(63, 25);
+            label42.TabIndex = 130;
+            label42.Text = "0";
+            // 
+            // label41
+            // 
+            label41.Font = new Font("Tahoma", 12F);
+            label41.Location = new Point(435, 328);
+            label41.Name = "label41";
+            label41.Size = new Size(63, 25);
+            label41.TabIndex = 129;
+            label41.Text = ">=";
+            // 
+            // label40
+            // 
+            label40.Font = new Font("Tahoma", 12F);
+            label40.Location = new Point(398, 328);
+            label40.Name = "label40";
+            label40.Size = new Size(63, 25);
+            label40.TabIndex = 128;
+            label40.Text = "x5,";
+            // 
+            // x4Finalanswer
+            // 
+            x4Finalanswer.Font = new Font("Tahoma", 12F);
+            x4Finalanswer.Location = new Point(349, 328);
+            x4Finalanswer.Name = "x4Finalanswer";
+            x4Finalanswer.Size = new Size(63, 25);
+            x4Finalanswer.TabIndex = 127;
+            x4Finalanswer.Text = "x4,";
+            // 
+            // x3Finalanswer
+            // 
+            x3Finalanswer.Font = new Font("Tahoma", 12F);
+            x3Finalanswer.Location = new Point(307, 328);
+            x3Finalanswer.Name = "x3Finalanswer";
+            x3Finalanswer.Size = new Size(63, 25);
+            x3Finalanswer.TabIndex = 126;
+            x3Finalanswer.Text = "x3 ,";
+            // 
+            // x2Finalanswer
+            // 
+            x2Finalanswer.Font = new Font("Tahoma", 12F);
+            x2Finalanswer.Location = new Point(252, 328);
+            x2Finalanswer.Name = "x2Finalanswer";
+            x2Finalanswer.Size = new Size(63, 25);
+            x2Finalanswer.TabIndex = 125;
+            x2Finalanswer.Text = "x2 ,";
+            // 
+            // x1Finalanswer
+            // 
+            x1Finalanswer.Font = new Font("Tahoma", 12F);
+            x1Finalanswer.Location = new Point(199, 328);
+            x1Finalanswer.Name = "x1Finalanswer";
+            x1Finalanswer.Size = new Size(63, 25);
+            x1Finalanswer.TabIndex = 122;
+            x1Finalanswer.Text = "x1 ,";
+            // 
             // label35
             // 
             label35.Font = new Font("Tahoma", 10F);
-            label35.Location = new Point(960, 233);
+            label35.Location = new Point(664, 232);
             label35.Name = "label35";
             label35.Size = new Size(49, 23);
             label35.TabIndex = 120;
@@ -435,7 +641,7 @@
             // label34
             // 
             label34.Font = new Font("Tahoma", 10F);
-            label34.Location = new Point(960, 184);
+            label34.Location = new Point(664, 183);
             label34.Name = "label34";
             label34.Size = new Size(49, 23);
             label34.TabIndex = 119;
@@ -445,7 +651,7 @@
             // label33
             // 
             label33.Font = new Font("Tahoma", 10F);
-            label33.Location = new Point(960, 140);
+            label33.Location = new Point(664, 139);
             label33.Name = "label33";
             label33.Size = new Size(49, 23);
             label33.TabIndex = 118;
@@ -455,7 +661,7 @@
             // label32
             // 
             label32.Font = new Font("Tahoma", 10F);
-            label32.Location = new Point(960, 93);
+            label32.Location = new Point(664, 92);
             label32.Name = "label32";
             label32.Size = new Size(49, 23);
             label32.TabIndex = 117;
@@ -465,7 +671,7 @@
             // label31
             // 
             label31.Font = new Font("Tahoma", 10F);
-            label31.Location = new Point(960, 51);
+            label31.Location = new Point(664, 50);
             label31.Name = "label31";
             label31.Size = new Size(49, 23);
             label31.TabIndex = 116;
@@ -474,7 +680,7 @@
             // 
             // rhs5
             // 
-            rhs5.Location = new Point(1015, 233);
+            rhs5.Location = new Point(719, 232);
             rhs5.Name = "rhs5";
             rhs5.Size = new Size(57, 23);
             rhs5.TabIndex = 115;
@@ -549,7 +755,7 @@
             // 
             // rhs4
             // 
-            rhs4.Location = new Point(1015, 186);
+            rhs4.Location = new Point(719, 185);
             rhs4.Name = "rhs4";
             rhs4.Size = new Size(57, 23);
             rhs4.TabIndex = 105;
@@ -624,7 +830,7 @@
             // 
             // rhs3
             // 
-            rhs3.Location = new Point(1015, 139);
+            rhs3.Location = new Point(719, 138);
             rhs3.Name = "rhs3";
             rhs3.Size = new Size(57, 23);
             rhs3.TabIndex = 95;
@@ -699,7 +905,7 @@
             // 
             // rhs2
             // 
-            rhs2.Location = new Point(1015, 94);
+            rhs2.Location = new Point(719, 93);
             rhs2.Name = "rhs2";
             rhs2.Size = new Size(57, 23);
             rhs2.TabIndex = 85;
@@ -774,7 +980,7 @@
             // 
             // rhs1
             // 
-            rhs1.Location = new Point(1015, 51);
+            rhs1.Location = new Point(719, 50);
             rhs1.Name = "rhs1";
             rhs1.Size = new Size(57, 23);
             rhs1.TabIndex = 75;
@@ -847,430 +1053,208 @@
             label30.Text = "x2 + ";
             label30.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label10
+            // panel3
             // 
-            label10.Font = new Font("Tahoma", 10F);
-            label10.Location = new Point(706, 48);
-            label10.Name = "label10";
-            label10.Size = new Size(70, 22);
-            label10.TabIndex = 126;
-            label10.Text = "+ Ma";
+            panel3.BackColor = Color.WhiteSmoke;
+            panel3.Controls.Add(label48);
+            panel3.Controls.Add(label47);
+            panel3.Controls.Add(label46);
+            panel3.Controls.Add(label45);
+            panel3.Controls.Add(variable4);
+            panel3.Controls.Add(variable3);
+            panel3.Controls.Add(variable22);
+            panel3.Controls.Add(variable11);
+            panel3.Controls.Add(label49);
+            panel3.Controls.Add(label50);
+            panel3.Controls.Add(label51);
+            panel3.Controls.Add(label52);
+            panel3.Controls.Add(label53);
+            panel3.Controls.Add(label54);
+            panel3.Controls.Add(label55);
+            panel3.Controls.Add(label56);
+            panel3.Controls.Add(label60);
+            panel3.Controls.Add(label62);
+            panel3.Location = new Point(-6, 90);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1487, 110);
+            panel3.TabIndex = 59;
+            panel3.Paint += panel1_Paint;
             // 
-            // label36
+            // variable4
             // 
-            label36.Font = new Font("Tahoma", 10F);
-            label36.Location = new Point(748, 48);
-            label36.Name = "label36";
-            label36.Size = new Size(70, 22);
-            label36.TabIndex = 127;
-            label36.Text = "+ Ma";
+            variable4.Font = new Font("Tahoma", 10F);
+            variable4.Location = new Point(394, 47);
+            variable4.Name = "variable4";
+            variable4.Size = new Size(46, 20);
+            variable4.TabIndex = 134;
+            variable4.Text = "x4+";
             // 
-            // label37
+            // variable3
             // 
-            label37.Font = new Font("Tahoma", 10F);
-            label37.Location = new Point(791, 48);
-            label37.Name = "label37";
-            label37.Size = new Size(70, 22);
-            label37.TabIndex = 128;
-            label37.Text = "+ Ma";
+            variable3.Font = new Font("Tahoma", 10F);
+            variable3.Location = new Point(322, 47);
+            variable3.Name = "variable3";
+            variable3.Size = new Size(48, 20);
+            variable3.TabIndex = 133;
+            variable3.Text = "x3 +";
             // 
-            // label38
+            // variable22
             // 
-            label38.Font = new Font("Tahoma", 10F);
-            label38.Location = new Point(833, 48);
-            label38.Name = "label38";
-            label38.Size = new Size(70, 22);
-            label38.TabIndex = 129;
-            label38.Text = "+ Ma";
+            variable22.Font = new Font("Tahoma", 10F);
+            variable22.Location = new Point(246, 47);
+            variable22.Name = "variable22";
+            variable22.Size = new Size(38, 20);
+            variable22.TabIndex = 132;
+            variable22.Text = "x2 +";
             // 
-            // label39
+            // variable11
             // 
-            label39.Font = new Font("Tahoma", 10F);
-            label39.Location = new Point(877, 46);
-            label39.Name = "label39";
-            label39.Size = new Size(70, 22);
-            label39.TabIndex = 130;
-            label39.Text = "+ Ma";
-            // 
-            // x1Finalanswer
-            // 
-            x1Finalanswer.Font = new Font("Tahoma", 12F);
-            x1Finalanswer.Location = new Point(199, 328);
-            x1Finalanswer.Name = "x1Finalanswer";
-            x1Finalanswer.Size = new Size(63, 25);
-            x1Finalanswer.TabIndex = 122;
-            x1Finalanswer.Text = "x1 ,";
-            // 
-            // x2Finalanswer
-            // 
-            x2Finalanswer.Font = new Font("Tahoma", 12F);
-            x2Finalanswer.Location = new Point(252, 328);
-            x2Finalanswer.Name = "x2Finalanswer";
-            x2Finalanswer.Size = new Size(63, 25);
-            x2Finalanswer.TabIndex = 125;
-            x2Finalanswer.Text = "x2 ,";
-            // 
-            // x3Finalanswer
-            // 
-            x3Finalanswer.Font = new Font("Tahoma", 12F);
-            x3Finalanswer.Location = new Point(307, 328);
-            x3Finalanswer.Name = "x3Finalanswer";
-            x3Finalanswer.Size = new Size(63, 25);
-            x3Finalanswer.TabIndex = 126;
-            x3Finalanswer.Text = "x3 ,";
-            // 
-            // x4Finalanswer
-            // 
-            x4Finalanswer.Font = new Font("Tahoma", 12F);
-            x4Finalanswer.Location = new Point(349, 328);
-            x4Finalanswer.Name = "x4Finalanswer";
-            x4Finalanswer.Size = new Size(63, 25);
-            x4Finalanswer.TabIndex = 127;
-            x4Finalanswer.Text = "x4,";
-            // 
-            // label40
-            // 
-            label40.Font = new Font("Tahoma", 12F);
-            label40.Location = new Point(398, 328);
-            label40.Name = "label40";
-            label40.Size = new Size(63, 25);
-            label40.TabIndex = 128;
-            label40.Text = "x5,";
-            // 
-            // label41
-            // 
-            label41.Font = new Font("Tahoma", 12F);
-            label41.Location = new Point(435, 328);
-            label41.Name = "label41";
-            label41.Size = new Size(63, 25);
-            label41.TabIndex = 129;
-            label41.Text = ">=";
-            // 
-            // label42
-            // 
-            label42.Font = new Font("Tahoma", 12F);
-            label42.Location = new Point(474, 328);
-            label42.Name = "label42";
-            label42.Size = new Size(63, 25);
-            label42.TabIndex = 130;
-            label42.Text = "0";
-            // 
-            // label43
-            // 
-            label43.Font = new Font("Tahoma", 10F);
-            label43.Location = new Point(543, 49);
-            label43.Name = "label43";
-            label43.Size = new Size(49, 23);
-            label43.TabIndex = 131;
-            label43.Text = "s1";
-            label43.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label44
-            // 
-            label44.Font = new Font("Tahoma", 10F);
-            label44.Location = new Point(590, 51);
-            label44.Name = "label44";
-            label44.Size = new Size(44, 23);
-            label44.TabIndex = 132;
-            label44.Text = "s2";
-            label44.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label45
-            // 
-            label45.Font = new Font("Tahoma", 10F);
-            label45.Location = new Point(640, 51);
-            label45.Name = "label45";
-            label45.Size = new Size(44, 23);
-            label45.TabIndex = 133;
-            label45.Text = "s3";
-            label45.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label46
-            // 
-            label46.Font = new Font("Tahoma", 10F);
-            label46.Location = new Point(690, 51);
-            label46.Name = "label46";
-            label46.Size = new Size(44, 23);
-            label46.TabIndex = 134;
-            label46.Text = "s4";
-            label46.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label47
-            // 
-            label47.Font = new Font("Tahoma", 10F);
-            label47.Location = new Point(740, 51);
-            label47.Name = "label47";
-            label47.Size = new Size(44, 23);
-            label47.TabIndex = 135;
-            label47.Text = "s5";
-            label47.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label48
-            // 
-            label48.Font = new Font("Tahoma", 10F);
-            label48.Location = new Point(740, 93);
-            label48.Name = "label48";
-            label48.Size = new Size(44, 23);
-            label48.TabIndex = 140;
-            label48.Text = "s5";
-            label48.TextAlign = ContentAlignment.MiddleCenter;
+            variable11.Font = new Font("Tahoma", 10F);
+            variable11.Location = new Point(174, 47);
+            variable11.Name = "variable11";
+            variable11.Size = new Size(33, 20);
+            variable11.TabIndex = 131;
+            variable11.Text = "x1";
+            variable11.Click += variable1_Click;
             // 
             // label49
             // 
             label49.Font = new Font("Tahoma", 10F);
-            label49.Location = new Point(690, 94);
+            label49.Location = new Point(759, 45);
             label49.Name = "label49";
-            label49.Size = new Size(44, 23);
-            label49.TabIndex = 139;
-            label49.Text = "s4";
-            label49.TextAlign = ContentAlignment.MiddleCenter;
+            label49.Size = new Size(70, 22);
+            label49.TabIndex = 130;
+            label49.Text = "+ Ma";
             // 
             // label50
             // 
             label50.Font = new Font("Tahoma", 10F);
-            label50.Location = new Point(640, 94);
+            label50.Location = new Point(715, 47);
             label50.Name = "label50";
-            label50.Size = new Size(44, 23);
-            label50.TabIndex = 138;
-            label50.Text = "s3";
-            label50.TextAlign = ContentAlignment.MiddleCenter;
+            label50.Size = new Size(70, 22);
+            label50.TabIndex = 129;
+            label50.Text = "+ Ma";
             // 
             // label51
             // 
             label51.Font = new Font("Tahoma", 10F);
-            label51.Location = new Point(590, 94);
+            label51.Location = new Point(673, 47);
             label51.Name = "label51";
-            label51.Size = new Size(44, 23);
-            label51.TabIndex = 137;
-            label51.Text = "s2";
-            label51.TextAlign = ContentAlignment.MiddleCenter;
+            label51.Size = new Size(70, 22);
+            label51.TabIndex = 128;
+            label51.Text = "+ Ma";
             // 
             // label52
             // 
             label52.Font = new Font("Tahoma", 10F);
-            label52.Location = new Point(543, 95);
+            label52.Location = new Point(630, 47);
             label52.Name = "label52";
-            label52.Size = new Size(49, 23);
-            label52.TabIndex = 136;
-            label52.Text = "s1";
-            label52.TextAlign = ContentAlignment.MiddleCenter;
+            label52.Size = new Size(70, 22);
+            label52.TabIndex = 127;
+            label52.Text = "+ Ma";
             // 
             // label53
             // 
             label53.Font = new Font("Tahoma", 10F);
-            label53.Location = new Point(740, 140);
+            label53.Location = new Point(588, 47);
             label53.Name = "label53";
-            label53.Size = new Size(44, 23);
-            label53.TabIndex = 145;
-            label53.Text = "s5";
-            label53.TextAlign = ContentAlignment.MiddleCenter;
+            label53.Size = new Size(70, 22);
+            label53.TabIndex = 126;
+            label53.Text = "+ Ma";
             // 
             // label54
             // 
             label54.Font = new Font("Tahoma", 10F);
-            label54.Location = new Point(690, 140);
+            label54.Location = new Point(556, 44);
             label54.Name = "label54";
-            label54.Size = new Size(44, 23);
-            label54.TabIndex = 144;
-            label54.Text = "s4";
+            label54.Size = new Size(42, 23);
+            label54.TabIndex = 73;
+            label54.Text = "s3";
             label54.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label55
             // 
             label55.Font = new Font("Tahoma", 10F);
-            label55.Location = new Point(640, 140);
+            label55.Location = new Point(516, 44);
             label55.Name = "label55";
-            label55.Size = new Size(44, 23);
-            label55.TabIndex = 143;
-            label55.Text = "s3";
+            label55.Size = new Size(48, 23);
+            label55.TabIndex = 71;
+            label55.Text = "s2 +";
             label55.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label56
             // 
             label56.Font = new Font("Tahoma", 10F);
-            label56.Location = new Point(590, 140);
+            label56.Location = new Point(473, 43);
             label56.Name = "label56";
-            label56.Size = new Size(44, 23);
-            label56.TabIndex = 142;
-            label56.Text = "s2";
+            label56.Size = new Size(49, 23);
+            label56.TabIndex = 69;
+            label56.Text = "s1 +";
             label56.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label57
-            // 
-            label57.Font = new Font("Tahoma", 10F);
-            label57.Location = new Point(543, 141);
-            label57.Name = "label57";
-            label57.Size = new Size(49, 23);
-            label57.TabIndex = 141;
-            label57.Text = "s1";
-            label57.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label58
-            // 
-            label58.Font = new Font("Tahoma", 10F);
-            label58.Location = new Point(740, 184);
-            label58.Name = "label58";
-            label58.Size = new Size(44, 23);
-            label58.TabIndex = 150;
-            label58.Text = "s5";
-            label58.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label59
-            // 
-            label59.Font = new Font("Tahoma", 10F);
-            label59.Location = new Point(690, 184);
-            label59.Name = "label59";
-            label59.Size = new Size(44, 23);
-            label59.TabIndex = 149;
-            label59.Text = "s4";
-            label59.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label60
             // 
             label60.Font = new Font("Tahoma", 10F);
-            label60.Location = new Point(640, 184);
+            label60.Location = new Point(9, 43);
             label60.Name = "label60";
-            label60.Size = new Size(44, 23);
-            label60.TabIndex = 148;
-            label60.Text = "s3";
+            label60.Size = new Size(122, 23);
+            label60.TabIndex = 57;
+            label60.Text = "Minimize Z = ";
             label60.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label61
-            // 
-            label61.Font = new Font("Tahoma", 10F);
-            label61.Location = new Point(590, 184);
-            label61.Name = "label61";
-            label61.Size = new Size(44, 23);
-            label61.TabIndex = 147;
-            label61.Text = "s2";
-            label61.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label62
             // 
             label62.Font = new Font("Tahoma", 10F);
-            label62.Location = new Point(543, 185);
+            label62.Location = new Point(115, 42);
             label62.Name = "label62";
-            label62.Size = new Size(49, 23);
-            label62.TabIndex = 146;
-            label62.Text = "s1";
+            label62.Size = new Size(76, 23);
+            label62.TabIndex = 59;
+            label62.Text = "f(x) = ";
             label62.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label63
+            // label45
             // 
-            label63.Font = new Font("Tahoma", 10F);
-            label63.Location = new Point(740, 232);
-            label63.Name = "label63";
-            label63.Size = new Size(44, 23);
-            label63.TabIndex = 155;
-            label63.Text = "s5";
-            label63.TextAlign = ContentAlignment.MiddleCenter;
+            label45.Font = new Font("Tahoma", 10F);
+            label45.Location = new Point(203, 47);
+            label45.Name = "label45";
+            label45.Size = new Size(37, 20);
+            label45.TabIndex = 135;
+            label45.Text = "x1+";
             // 
-            // label64
+            // label46
             // 
-            label64.Font = new Font("Tahoma", 10F);
-            label64.Location = new Point(690, 231);
-            label64.Name = "label64";
-            label64.Size = new Size(44, 23);
-            label64.TabIndex = 154;
-            label64.Text = "s4";
-            label64.TextAlign = ContentAlignment.MiddleCenter;
+            label46.Font = new Font("Tahoma", 10F);
+            label46.Location = new Point(284, 46);
+            label46.Name = "label46";
+            label46.Size = new Size(37, 20);
+            label46.TabIndex = 136;
+            label46.Text = "x2+";
             // 
-            // label65
+            // label47
             // 
-            label65.Font = new Font("Tahoma", 10F);
-            label65.Location = new Point(640, 231);
-            label65.Name = "label65";
-            label65.Size = new Size(44, 23);
-            label65.TabIndex = 153;
-            label65.Text = "s3";
-            label65.TextAlign = ContentAlignment.MiddleCenter;
+            label47.Font = new Font("Tahoma", 10F);
+            label47.Location = new Point(355, 47);
+            label47.Name = "label47";
+            label47.Size = new Size(37, 20);
+            label47.TabIndex = 137;
+            label47.Text = "x3+";
             // 
-            // label66
+            // label48
             // 
-            label66.Font = new Font("Tahoma", 10F);
-            label66.Location = new Point(590, 231);
-            label66.Name = "label66";
-            label66.Size = new Size(44, 23);
-            label66.TabIndex = 152;
-            label66.Text = "s2";
-            label66.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label67
-            // 
-            label67.Font = new Font("Tahoma", 10F);
-            label67.Location = new Point(543, 232);
-            label67.Name = "label67";
-            label67.Size = new Size(49, 23);
-            label67.TabIndex = 151;
-            label67.Text = "s1";
-            label67.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label68
-            // 
-            label68.Font = new Font("Tahoma", 10F);
-            label68.Location = new Point(780, 378);
-            label68.Name = "label68";
-            label68.Size = new Size(44, 23);
-            label68.TabIndex = 161;
-            label68.Text = "s5";
-            label68.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label69
-            // 
-            label69.Font = new Font("Tahoma", 10F);
-            label69.Location = new Point(730, 378);
-            label69.Name = "label69";
-            label69.Size = new Size(44, 23);
-            label69.TabIndex = 160;
-            label69.Text = "s4";
-            label69.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label70
-            // 
-            label70.Font = new Font("Tahoma", 10F);
-            label70.Location = new Point(680, 378);
-            label70.Name = "label70";
-            label70.Size = new Size(44, 23);
-            label70.TabIndex = 159;
-            label70.Text = "s3";
-            label70.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label71
-            // 
-            label71.Font = new Font("Tahoma", 10F);
-            label71.Location = new Point(630, 378);
-            label71.Name = "label71";
-            label71.Size = new Size(44, 23);
-            label71.TabIndex = 158;
-            label71.Text = "s2";
-            label71.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label72
-            // 
-            label72.Font = new Font("Tahoma", 10F);
-            label72.Location = new Point(583, 376);
-            label72.Name = "label72";
-            label72.Size = new Size(49, 23);
-            label72.TabIndex = 157;
-            label72.Text = "s1";
-            label72.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label73
-            // 
-            label73.Font = new Font("Tahoma", 10F);
-            label73.Location = new Point(780, 50);
-            label73.Name = "label73";
-            label73.Size = new Size(49, 23);
-            label73.TabIndex = 156;
-            label73.Text = "x4 ";
-            label73.TextAlign = ContentAlignment.MiddleCenter;
+            label48.Font = new Font("Tahoma", 10F);
+            label48.Location = new Point(430, 47);
+            label48.Name = "label48";
+            label48.Size = new Size(37, 20);
+            label48.TabIndex = 138;
+            label48.Text = "x4+";
             // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1484, 761);
+            ClientSize = new Size(1007, 681);
             Controls.Add(panel2);
+            Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(txt_title);
             MaximizeBox = false;
@@ -1280,6 +1264,7 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -1288,20 +1273,13 @@
         private Label txt_title;
         private Panel panel1;
         private Label label7;
-        private TextBox variable4;
         private Label label6;
-        private TextBox variable3;
         private Label label5;
-        private TextBox variable1;
-        private TextBox variable2;
         private Label label3;
         private Label label26;
         private Label label4;
-        private TextBox slack3;
         private Label label2;
-        private TextBox slack2;
         private Label label8;
-        private TextBox slack1;
         private Label label1;
         private Panel panel2;
         private Label label35;
@@ -1366,36 +1344,42 @@
         private Label x3Finalanswer;
         private Label x2Finalanswer;
         private Label x1Finalanswer;
-        private Label label63;
-        private Label label64;
-        private Label label65;
-        private Label label66;
-        private Label label67;
-        private Label label58;
-        private Label label59;
-        private Label label60;
-        private Label label61;
-        private Label label62;
-        private Label label53;
-        private Label label54;
-        private Label label55;
-        private Label label56;
-        private Label label57;
-        private Label label48;
+        private Label lblslacks55;
+        private Label lblslacks44;
+        private Label lblslacks33;
+        private Label lblslacks22;
+        private Label lblslacks1;
+        private Label label72;
+        private Label label88;
+        private Label label84;
+        private Label label80;
+        private Label label76;
+        private Label artificial1;
+        private TextBox slack3;
+        private TextBox slack2;
+        private TextBox slack1;
+        private Label variable1;
+        private Label label44;
+        private Label label43;
+        private Label variable2;
+        private Panel panel3;
+        private Label variable4;
+        private Label variable3;
+        private Label variable22;
+        private Label variable11;
         private Label label49;
         private Label label50;
         private Label label51;
         private Label label52;
-        private Label label47;
+        private Label label53;
+        private Label label54;
+        private Label label55;
+        private Label label56;
+        private Label label60;
+        private Label label62;
         private Label label46;
         private Label label45;
-        private Label label44;
-        private Label label43;
-        private Label label68;
-        private Label label69;
-        private Label label70;
-        private Label label71;
-        private Label label72;
-        private Label label73;
+        private Label label48;
+        private Label label47;
     }
 }

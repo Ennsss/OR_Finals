@@ -158,6 +158,7 @@
             txtVar1.Name = "txtVar1";
             txtVar1.Size = new Size(57, 23);
             txtVar1.TabIndex = 5;
+            txtVar1.TextChanged += txtVar1_TextChanged;
             // 
             // cbtypofcons1
             // 
@@ -167,6 +168,7 @@
             cbtypofcons1.Name = "cbtypofcons1";
             cbtypofcons1.Size = new Size(50, 23);
             cbtypofcons1.TabIndex = 22;
+            cbtypofcons1.SelectedIndexChanged += cbtypofcons1_SelectedIndexChanged;
             // 
             // btnSolve
             // 
@@ -228,6 +230,7 @@
             txtVar4.Name = "txtVar4";
             txtVar4.Size = new Size(57, 23);
             txtVar4.TabIndex = 65;
+            txtVar4.TextChanged += txtVar4_TextChanged;
             // 
             // label6
             // 
@@ -245,6 +248,7 @@
             txtVar3.Name = "txtVar3";
             txtVar3.Size = new Size(57, 23);
             txtVar3.TabIndex = 63;
+            txtVar3.TextChanged += txtVar3_TextChanged;
             // 
             // label5
             // 
@@ -262,6 +266,7 @@
             txtVar2.Name = "txtVar2";
             txtVar2.Size = new Size(57, 23);
             txtVar2.TabIndex = 61;
+            txtVar2.TextChanged += txtVar2_TextChanged;
             // 
             // label26
             // 
@@ -343,6 +348,7 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(1008, 476);
             panel2.TabIndex = 59;
+            panel2.Paint += panel2_Paint;
             // 
             // txtrhs5
             // 
@@ -359,6 +365,7 @@
             cbtypofcons5.Name = "cbtypofcons5";
             cbtypofcons5.Size = new Size(50, 23);
             cbtypofcons5.TabIndex = 106;
+            cbtypofcons5.SelectedIndexChanged += cbtypofcons5_SelectedIndexChanged;
             // 
             // label25
             // 
@@ -445,6 +452,7 @@
             cbtypofcons4.Name = "cbtypofcons4";
             cbtypofcons4.Size = new Size(50, 23);
             cbtypofcons4.TabIndex = 96;
+            cbtypofcons4.SelectedIndexChanged += cbtypofcons4_SelectedIndexChanged;
             // 
             // label21
             // 
@@ -530,6 +538,7 @@
             cbtypofcons3.Name = "cbtypofcons3";
             cbtypofcons3.Size = new Size(50, 23);
             cbtypofcons3.TabIndex = 86;
+            cbtypofcons3.SelectedIndexChanged += cbtypofcons3_SelectedIndexChanged;
             // 
             // label17
             // 
@@ -614,6 +623,7 @@
             cbtypofcons2.Name = "cbtypofcons2";
             cbtypofcons2.Size = new Size(50, 23);
             cbtypofcons2.TabIndex = 76;
+            cbtypofcons2.SelectedIndexChanged += cbtypofcons2_SelectedIndexChanged;
             // 
             // label13
             // 
