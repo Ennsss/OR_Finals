@@ -30,8 +30,8 @@
         {
             txt_title = new Label();
             panel1 = new Panel();
-            label44 = new Label();
-            label43 = new Label();
+            variable4 = new Label();
+            variable3 = new Label();
             variable2 = new Label();
             variable1 = new Label();
             label39 = new Label();
@@ -52,11 +52,26 @@
             label26 = new Label();
             label4 = new Label();
             panel2 = new Panel();
-            artificial1 = new Label();
-            label88 = new Label();
-            label84 = new Label();
-            label80 = new Label();
-            label76 = new Label();
+            lblconstraint54 = new Label();
+            lblconstraint53 = new Label();
+            lblconstraint52 = new Label();
+            lblconstraint51 = new Label();
+            lblconstraint44 = new Label();
+            lblconstraint43 = new Label();
+            lblconstraint42 = new Label();
+            lblconstraint41 = new Label();
+            lblconstraint34 = new Label();
+            lblconstraint33 = new Label();
+            lblconstraint32 = new Label();
+            lblconstraint31 = new Label();
+            lblconstraint24 = new Label();
+            lblconstraint23 = new Label();
+            lblconstraint22 = new Label();
+            lblconstraint21 = new Label();
+            lblconstraint4 = new Label();
+            lblconstraint3 = new Label();
+            lblconstraint2 = new Label();
+            lblconstraint1 = new Label();
             label72 = new Label();
             lblslacks55 = new Label();
             lblslacks44 = new Label();
@@ -76,74 +91,32 @@
             label32 = new Label();
             label31 = new Label();
             rhs5 = new TextBox();
-            label25 = new Label();
-            label27 = new Label();
-            label28 = new Label();
-            label29 = new Label();
+            labelcons55 = new Label();
+            labelcons53 = new Label();
+            labelcons51 = new Label();
+            labelcons52 = new Label();
             rhs4 = new TextBox();
-            label21 = new Label();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
+            labelcons44 = new Label();
+            labelcons43 = new Label();
+            labelcons41 = new Label();
+            labelcons42 = new Label();
             rhs3 = new TextBox();
-            label17 = new Label();
-            label18 = new Label();
-            label19 = new Label();
-            label20 = new Label();
+            labelcons34 = new Label();
+            labelcons33 = new Label();
+            labelcons31 = new Label();
+            labelcons32 = new Label();
             rhs2 = new TextBox();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
+            labelcons24 = new Label();
+            labelcons23 = new Label();
+            labelcons21 = new Label();
+            labelcons22 = new Label();
             rhs1 = new TextBox();
-            label9 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label30 = new Label();
-            panel3 = new Panel();
-            label48 = new Label();
-            label47 = new Label();
-            label46 = new Label();
-            label45 = new Label();
-            variable4 = new Label();
-            variable3 = new Label();
-            variable22 = new Label();
-            variable11 = new Label();
-            label49 = new Label();
-            label50 = new Label();
-            label51 = new Label();
-            label52 = new Label();
-            label53 = new Label();
-            label54 = new Label();
-            label55 = new Label();
-            label56 = new Label();
-            label60 = new Label();
-            label62 = new Label();
-            label57 = new Label();
-            label58 = new Label();
-            lblconstraint4 = new Label();
-            lblconstraint3 = new Label();
-            lblconstraint2 = new Label();
-            lblconstraint1 = new Label();
-            lblconstraint24 = new Label();
-            lblconstraint23 = new Label();
-            lblconstraint22 = new Label();
-            lblconstraint21 = new Label();
-            lblconstraint34 = new Label();
-            lblconstraint33 = new Label();
-            lblconstraint32 = new Label();
-            lblconstraint31 = new Label();
-            lblconstraint44 = new Label();
-            lblconstraint43 = new Label();
-            lblconstraint42 = new Label();
-            lblconstraint41 = new Label();
-            lblconstraint54 = new Label();
-            lblconstraint53 = new Label();
-            lblconstraint52 = new Label();
-            lblconstraint51 = new Label();
+            labelcons4 = new Label();
+            labelcons3 = new Label();
+            labelcons1 = new Label();
+            labelcons2 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
-            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // txt_title
@@ -161,8 +134,8 @@
             // panel1
             // 
             panel1.BackColor = Color.WhiteSmoke;
-            panel1.Controls.Add(label44);
-            panel1.Controls.Add(label43);
+            panel1.Controls.Add(variable4);
+            panel1.Controls.Add(variable3);
             panel1.Controls.Add(variable2);
             panel1.Controls.Add(variable1);
             panel1.Controls.Add(label39);
@@ -188,23 +161,23 @@
             panel1.TabIndex = 59;
             panel1.Paint += panel1_Paint;
             // 
-            // label44
+            // variable4
             // 
-            label44.Font = new Font("Tahoma", 10F);
-            label44.Location = new Point(415, 42);
-            label44.Name = "label44";
-            label44.Size = new Size(46, 20);
-            label44.TabIndex = 134;
-            label44.Text = "x4+";
+            variable4.Font = new Font("Tahoma", 10F);
+            variable4.Location = new Point(415, 42);
+            variable4.Name = "variable4";
+            variable4.Size = new Size(46, 20);
+            variable4.TabIndex = 134;
+            variable4.Text = "x4+";
             // 
-            // label43
+            // variable3
             // 
-            label43.Font = new Font("Tahoma", 10F);
-            label43.Location = new Point(322, 42);
-            label43.Name = "label43";
-            label43.Size = new Size(48, 20);
-            label43.TabIndex = 133;
-            label43.Text = "x3 +";
+            variable3.Font = new Font("Tahoma", 10F);
+            variable3.Location = new Point(322, 42);
+            variable3.Name = "variable3";
+            variable3.Size = new Size(48, 20);
+            variable3.TabIndex = 133;
+            variable3.Text = "x3 +";
             // 
             // variable2
             // 
@@ -401,14 +374,9 @@
             panel2.Controls.Add(lblconstraint22);
             panel2.Controls.Add(lblconstraint21);
             panel2.Controls.Add(lblconstraint4);
-            panel2.Controls.Add(artificial1);
             panel2.Controls.Add(lblconstraint3);
-            panel2.Controls.Add(label88);
             panel2.Controls.Add(lblconstraint2);
-            panel2.Controls.Add(label84);
             panel2.Controls.Add(lblconstraint1);
-            panel2.Controls.Add(label80);
-            panel2.Controls.Add(label76);
             panel2.Controls.Add(label72);
             panel2.Controls.Add(lblslacks55);
             panel2.Controls.Add(lblslacks44);
@@ -428,86 +396,216 @@
             panel2.Controls.Add(label32);
             panel2.Controls.Add(label31);
             panel2.Controls.Add(rhs5);
-            panel2.Controls.Add(label25);
-            panel2.Controls.Add(label27);
-            panel2.Controls.Add(label28);
-            panel2.Controls.Add(label29);
+            panel2.Controls.Add(labelcons55);
+            panel2.Controls.Add(labelcons53);
+            panel2.Controls.Add(labelcons51);
+            panel2.Controls.Add(labelcons52);
             panel2.Controls.Add(rhs4);
-            panel2.Controls.Add(label21);
-            panel2.Controls.Add(label22);
-            panel2.Controls.Add(label23);
-            panel2.Controls.Add(label24);
+            panel2.Controls.Add(labelcons44);
+            panel2.Controls.Add(labelcons43);
+            panel2.Controls.Add(labelcons41);
+            panel2.Controls.Add(labelcons42);
             panel2.Controls.Add(rhs3);
-            panel2.Controls.Add(label17);
-            panel2.Controls.Add(label18);
-            panel2.Controls.Add(label19);
-            panel2.Controls.Add(label20);
+            panel2.Controls.Add(labelcons34);
+            panel2.Controls.Add(labelcons33);
+            panel2.Controls.Add(labelcons31);
+            panel2.Controls.Add(labelcons32);
             panel2.Controls.Add(rhs2);
-            panel2.Controls.Add(label13);
-            panel2.Controls.Add(label14);
-            panel2.Controls.Add(label15);
-            panel2.Controls.Add(label16);
+            panel2.Controls.Add(labelcons24);
+            panel2.Controls.Add(labelcons23);
+            panel2.Controls.Add(labelcons21);
+            panel2.Controls.Add(labelcons22);
             panel2.Controls.Add(rhs1);
-            panel2.Controls.Add(label9);
-            panel2.Controls.Add(label11);
-            panel2.Controls.Add(label12);
-            panel2.Controls.Add(label30);
+            panel2.Controls.Add(labelcons4);
+            panel2.Controls.Add(labelcons3);
+            panel2.Controls.Add(labelcons1);
+            panel2.Controls.Add(labelcons2);
+            panel2.Font = new Font("Microsoft Sans Serif", 9.75F);
             panel2.Location = new Point(0, 198);
             panel2.Name = "panel2";
             panel2.Size = new Size(1484, 571);
             panel2.TabIndex = 60;
             panel2.Paint += panel2_Paint;
             // 
-            // artificial1
+            // lblconstraint54
             // 
-            artificial1.Font = new Font("Tahoma", 10F);
-            artificial1.Location = new Point(598, 51);
-            artificial1.Name = "artificial1";
-            artificial1.Size = new Size(49, 23);
-            artificial1.TabIndex = 183;
-            artificial1.Text = "+a1";
-            artificial1.TextAlign = ContentAlignment.MiddleCenter;
-            artificial1.Click += artificial1_Click_1;
+            lblconstraint54.Font = new Font("Tahoma", 14.25F);
+            lblconstraint54.Location = new Point(435, 236);
+            lblconstraint54.Name = "lblconstraint54";
+            lblconstraint54.Size = new Size(37, 20);
+            lblconstraint54.TabIndex = 199;
+            lblconstraint54.Text = "x4+";
             // 
-            // label88
+            // lblconstraint53
             // 
-            label88.Font = new Font("Tahoma", 10F);
-            label88.Location = new Point(598, 233);
-            label88.Name = "label88";
-            label88.Size = new Size(44, 23);
-            label88.TabIndex = 181;
-            label88.Text = "+a5";
-            label88.TextAlign = ContentAlignment.MiddleCenter;
+            lblconstraint53.Font = new Font("Tahoma", 14.25F);
+            lblconstraint53.Location = new Point(316, 235);
+            lblconstraint53.Name = "lblconstraint53";
+            lblconstraint53.Size = new Size(48, 20);
+            lblconstraint53.TabIndex = 198;
+            lblconstraint53.Text = "x3 +";
             // 
-            // label84
+            // lblconstraint52
             // 
-            label84.Font = new Font("Tahoma", 10F);
-            label84.Location = new Point(598, 183);
-            label84.Name = "label84";
-            label84.Size = new Size(44, 23);
-            label84.TabIndex = 175;
-            label84.Text = "+a4";
-            label84.TextAlign = ContentAlignment.MiddleCenter;
+            lblconstraint52.Font = new Font("Tahoma", 14.25F);
+            lblconstraint52.Location = new Point(199, 236);
+            lblconstraint52.Name = "lblconstraint52";
+            lblconstraint52.Size = new Size(38, 20);
+            lblconstraint52.TabIndex = 197;
+            lblconstraint52.Text = "x2 +";
             // 
-            // label80
+            // lblconstraint51
             // 
-            label80.Font = new Font("Tahoma", 10F);
-            label80.Location = new Point(598, 137);
-            label80.Name = "label80";
-            label80.Size = new Size(44, 23);
-            label80.TabIndex = 169;
-            label80.Text = "+a3";
-            label80.TextAlign = ContentAlignment.MiddleCenter;
+            lblconstraint51.Font = new Font("Tahoma", 14.25F);
+            lblconstraint51.Location = new Point(92, 235);
+            lblconstraint51.Name = "lblconstraint51";
+            lblconstraint51.Size = new Size(33, 20);
+            lblconstraint51.TabIndex = 196;
+            lblconstraint51.Text = "x1";
             // 
-            // label76
+            // lblconstraint44
             // 
-            label76.Font = new Font("Tahoma", 10F);
-            label76.Location = new Point(598, 92);
-            label76.Name = "label76";
-            label76.Size = new Size(44, 23);
-            label76.TabIndex = 163;
-            label76.Text = "+a2";
-            label76.TextAlign = ContentAlignment.MiddleCenter;
+            lblconstraint44.Font = new Font("Tahoma", 14.25F);
+            lblconstraint44.Location = new Point(435, 189);
+            lblconstraint44.Name = "lblconstraint44";
+            lblconstraint44.Size = new Size(37, 20);
+            lblconstraint44.TabIndex = 195;
+            lblconstraint44.Text = "x4+";
+            // 
+            // lblconstraint43
+            // 
+            lblconstraint43.Font = new Font("Tahoma", 14.25F);
+            lblconstraint43.Location = new Point(316, 188);
+            lblconstraint43.Name = "lblconstraint43";
+            lblconstraint43.Size = new Size(48, 20);
+            lblconstraint43.TabIndex = 194;
+            lblconstraint43.Text = "x3 +";
+            // 
+            // lblconstraint42
+            // 
+            lblconstraint42.Font = new Font("Tahoma", 14.25F);
+            lblconstraint42.Location = new Point(199, 189);
+            lblconstraint42.Name = "lblconstraint42";
+            lblconstraint42.Size = new Size(38, 20);
+            lblconstraint42.TabIndex = 193;
+            lblconstraint42.Text = "x2 +";
+            // 
+            // lblconstraint41
+            // 
+            lblconstraint41.Font = new Font("Tahoma", 14.25F);
+            lblconstraint41.Location = new Point(92, 188);
+            lblconstraint41.Name = "lblconstraint41";
+            lblconstraint41.Size = new Size(33, 20);
+            lblconstraint41.TabIndex = 192;
+            lblconstraint41.Text = "x1";
+            // 
+            // lblconstraint34
+            // 
+            lblconstraint34.Font = new Font("Tahoma", 14.25F);
+            lblconstraint34.Location = new Point(435, 143);
+            lblconstraint34.Name = "lblconstraint34";
+            lblconstraint34.Size = new Size(37, 20);
+            lblconstraint34.TabIndex = 191;
+            lblconstraint34.Text = "x4+";
+            // 
+            // lblconstraint33
+            // 
+            lblconstraint33.Font = new Font("Tahoma", 14.25F);
+            lblconstraint33.Location = new Point(316, 142);
+            lblconstraint33.Name = "lblconstraint33";
+            lblconstraint33.Size = new Size(48, 20);
+            lblconstraint33.TabIndex = 190;
+            lblconstraint33.Text = "x3 +";
+            // 
+            // lblconstraint32
+            // 
+            lblconstraint32.Font = new Font("Tahoma", 14.25F);
+            lblconstraint32.Location = new Point(199, 143);
+            lblconstraint32.Name = "lblconstraint32";
+            lblconstraint32.Size = new Size(38, 20);
+            lblconstraint32.TabIndex = 189;
+            lblconstraint32.Text = "x2 +";
+            // 
+            // lblconstraint31
+            // 
+            lblconstraint31.Font = new Font("Tahoma", 14.25F);
+            lblconstraint31.Location = new Point(92, 142);
+            lblconstraint31.Name = "lblconstraint31";
+            lblconstraint31.Size = new Size(33, 20);
+            lblconstraint31.TabIndex = 188;
+            lblconstraint31.Text = "x1";
+            // 
+            // lblconstraint24
+            // 
+            lblconstraint24.Font = new Font("Tahoma", 14.25F);
+            lblconstraint24.Location = new Point(435, 98);
+            lblconstraint24.Name = "lblconstraint24";
+            lblconstraint24.Size = new Size(37, 20);
+            lblconstraint24.TabIndex = 187;
+            lblconstraint24.Text = "x4+";
+            // 
+            // lblconstraint23
+            // 
+            lblconstraint23.Font = new Font("Tahoma", 14.25F);
+            lblconstraint23.Location = new Point(316, 97);
+            lblconstraint23.Name = "lblconstraint23";
+            lblconstraint23.Size = new Size(48, 20);
+            lblconstraint23.TabIndex = 186;
+            lblconstraint23.Text = "x3 +";
+            // 
+            // lblconstraint22
+            // 
+            lblconstraint22.Font = new Font("Tahoma", 14.25F);
+            lblconstraint22.Location = new Point(199, 98);
+            lblconstraint22.Name = "lblconstraint22";
+            lblconstraint22.Size = new Size(38, 20);
+            lblconstraint22.TabIndex = 185;
+            lblconstraint22.Text = "x2 +";
+            // 
+            // lblconstraint21
+            // 
+            lblconstraint21.Font = new Font("Tahoma", 14.25F);
+            lblconstraint21.Location = new Point(92, 97);
+            lblconstraint21.Name = "lblconstraint21";
+            lblconstraint21.Size = new Size(33, 20);
+            lblconstraint21.TabIndex = 184;
+            lblconstraint21.Text = "x1";
+            // 
+            // lblconstraint4
+            // 
+            lblconstraint4.Font = new Font("Tahoma", 14.25F);
+            lblconstraint4.Location = new Point(435, 54);
+            lblconstraint4.Name = "lblconstraint4";
+            lblconstraint4.Size = new Size(37, 20);
+            lblconstraint4.TabIndex = 144;
+            lblconstraint4.Text = "x4+";
+            // 
+            // lblconstraint3
+            // 
+            lblconstraint3.Font = new Font("Tahoma", 14.25F);
+            lblconstraint3.Location = new Point(316, 53);
+            lblconstraint3.Name = "lblconstraint3";
+            lblconstraint3.Size = new Size(48, 20);
+            lblconstraint3.TabIndex = 143;
+            lblconstraint3.Text = "x3 +";
+            // 
+            // lblconstraint2
+            // 
+            lblconstraint2.Font = new Font("Tahoma", 14.25F);
+            lblconstraint2.Location = new Point(199, 54);
+            lblconstraint2.Name = "lblconstraint2";
+            lblconstraint2.Size = new Size(38, 20);
+            lblconstraint2.TabIndex = 142;
+            lblconstraint2.Text = "x2 +";
+            // 
+            // lblconstraint1
+            // 
+            lblconstraint1.Font = new Font("Tahoma", 14.25F);
+            lblconstraint1.Location = new Point(92, 53);
+            lblconstraint1.Name = "lblconstraint1";
+            lblconstraint1.Size = new Size(33, 20);
+            lblconstraint1.TabIndex = 141;
+            lblconstraint1.Text = "x1";
             // 
             // label72
             // 
@@ -559,7 +657,7 @@
             // lblconstraint5
             // 
             lblconstraint5.Font = new Font("Tahoma", 10F);
-            lblconstraint5.Location = new Point(543, 51);
+            lblconstraint5.Location = new Point(540, 51);
             lblconstraint5.Name = "lblconstraint5";
             lblconstraint5.Size = new Size(49, 23);
             lblconstraint5.TabIndex = 131;
@@ -684,633 +782,236 @@
             // 
             rhs5.Location = new Point(719, 232);
             rhs5.Name = "rhs5";
-            rhs5.Size = new Size(57, 23);
+            rhs5.Size = new Size(57, 22);
             rhs5.TabIndex = 115;
             // 
-            // label25
+            // labelcons55
             // 
-            label25.Font = new Font("Tahoma", 10F);
-            label25.Location = new Point(488, 232);
-            label25.Name = "label25";
-            label25.Size = new Size(49, 23);
-            label25.TabIndex = 114;
-            label25.Text = "x4 ";
-            label25.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons55.Font = new Font("Tahoma", 10F);
+            labelcons55.Location = new Point(488, 232);
+            labelcons55.Name = "labelcons55";
+            labelcons55.Size = new Size(49, 23);
+            labelcons55.TabIndex = 114;
+            labelcons55.Text = "x4 ";
+            labelcons55.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label27
+            // labelcons53
             // 
-            label27.Font = new Font("Tahoma", 10F);
-            label27.Location = new Point(370, 232);
-            label27.Name = "label27";
-            label27.Size = new Size(49, 23);
-            label27.TabIndex = 112;
-            label27.Text = "x3 + ";
-            label27.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons53.Font = new Font("Tahoma", 10F);
+            labelcons53.Location = new Point(370, 232);
+            labelcons53.Name = "labelcons53";
+            labelcons53.Size = new Size(49, 23);
+            labelcons53.TabIndex = 112;
+            labelcons53.Text = "x3 + ";
+            labelcons53.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label28
+            // labelcons51
             // 
-            label28.Font = new Font("Tahoma", 10F);
-            label28.Location = new Point(137, 232);
-            label28.Name = "label28";
-            label28.Size = new Size(49, 23);
-            label28.TabIndex = 108;
-            label28.Text = "x1 + ";
-            label28.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons51.Font = new Font("Tahoma", 10F);
+            labelcons51.Location = new Point(137, 232);
+            labelcons51.Name = "labelcons51";
+            labelcons51.Size = new Size(49, 23);
+            labelcons51.TabIndex = 108;
+            labelcons51.Text = "x1 + ";
+            labelcons51.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label29
+            // labelcons52
             // 
-            label29.Font = new Font("Tahoma", 10F);
-            label29.Location = new Point(252, 232);
-            label29.Name = "label29";
-            label29.Size = new Size(49, 23);
-            label29.TabIndex = 110;
-            label29.Text = "x2 + ";
-            label29.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons52.Font = new Font("Tahoma", 10F);
+            labelcons52.Location = new Point(252, 232);
+            labelcons52.Name = "labelcons52";
+            labelcons52.Size = new Size(49, 23);
+            labelcons52.TabIndex = 110;
+            labelcons52.Text = "x2 + ";
+            labelcons52.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // rhs4
             // 
             rhs4.Location = new Point(719, 185);
             rhs4.Name = "rhs4";
-            rhs4.Size = new Size(57, 23);
+            rhs4.Size = new Size(57, 22);
             rhs4.TabIndex = 105;
             // 
-            // label21
+            // labelcons44
             // 
-            label21.Font = new Font("Tahoma", 10F);
-            label21.Location = new Point(488, 185);
-            label21.Name = "label21";
-            label21.Size = new Size(49, 23);
-            label21.TabIndex = 104;
-            label21.Text = "x4 ";
-            label21.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons44.Font = new Font("Tahoma", 10F);
+            labelcons44.Location = new Point(488, 185);
+            labelcons44.Name = "labelcons44";
+            labelcons44.Size = new Size(49, 23);
+            labelcons44.TabIndex = 104;
+            labelcons44.Text = "x4 ";
+            labelcons44.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label22
+            // labelcons43
             // 
-            label22.Font = new Font("Tahoma", 10F);
-            label22.Location = new Point(370, 185);
-            label22.Name = "label22";
-            label22.Size = new Size(49, 23);
-            label22.TabIndex = 102;
-            label22.Text = "x3 + ";
-            label22.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons43.Font = new Font("Tahoma", 10F);
+            labelcons43.Location = new Point(370, 185);
+            labelcons43.Name = "labelcons43";
+            labelcons43.Size = new Size(49, 23);
+            labelcons43.TabIndex = 102;
+            labelcons43.Text = "x3 + ";
+            labelcons43.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label23
+            // labelcons41
             // 
-            label23.Font = new Font("Tahoma", 10F);
-            label23.Location = new Point(137, 185);
-            label23.Name = "label23";
-            label23.Size = new Size(49, 23);
-            label23.TabIndex = 98;
-            label23.Text = "x1 + ";
-            label23.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons41.Font = new Font("Tahoma", 10F);
+            labelcons41.Location = new Point(137, 185);
+            labelcons41.Name = "labelcons41";
+            labelcons41.Size = new Size(49, 23);
+            labelcons41.TabIndex = 98;
+            labelcons41.Text = "x1 + ";
+            labelcons41.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label24
+            // labelcons42
             // 
-            label24.Font = new Font("Tahoma", 10F);
-            label24.Location = new Point(252, 185);
-            label24.Name = "label24";
-            label24.Size = new Size(49, 23);
-            label24.TabIndex = 100;
-            label24.Text = "x2 + ";
-            label24.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons42.Font = new Font("Tahoma", 10F);
+            labelcons42.Location = new Point(252, 185);
+            labelcons42.Name = "labelcons42";
+            labelcons42.Size = new Size(49, 23);
+            labelcons42.TabIndex = 100;
+            labelcons42.Text = "x2 + ";
+            labelcons42.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // rhs3
             // 
             rhs3.Location = new Point(719, 138);
             rhs3.Name = "rhs3";
-            rhs3.Size = new Size(57, 23);
+            rhs3.Size = new Size(57, 22);
             rhs3.TabIndex = 95;
             // 
-            // label17
+            // labelcons34
             // 
-            label17.Font = new Font("Tahoma", 10F);
-            label17.Location = new Point(488, 139);
-            label17.Name = "label17";
-            label17.Size = new Size(49, 23);
-            label17.TabIndex = 94;
-            label17.Text = "x4 ";
-            label17.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons34.Font = new Font("Tahoma", 10F);
+            labelcons34.Location = new Point(488, 139);
+            labelcons34.Name = "labelcons34";
+            labelcons34.Size = new Size(49, 23);
+            labelcons34.TabIndex = 94;
+            labelcons34.Text = "x4 ";
+            labelcons34.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label18
+            // labelcons33
             // 
-            label18.Font = new Font("Tahoma", 10F);
-            label18.Location = new Point(370, 139);
-            label18.Name = "label18";
-            label18.Size = new Size(49, 23);
-            label18.TabIndex = 92;
-            label18.Text = "x3 + ";
-            label18.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons33.Font = new Font("Tahoma", 10F);
+            labelcons33.Location = new Point(370, 139);
+            labelcons33.Name = "labelcons33";
+            labelcons33.Size = new Size(49, 23);
+            labelcons33.TabIndex = 92;
+            labelcons33.Text = "x3 + ";
+            labelcons33.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label19
+            // labelcons31
             // 
-            label19.Font = new Font("Tahoma", 10F);
-            label19.Location = new Point(137, 139);
-            label19.Name = "label19";
-            label19.Size = new Size(49, 23);
-            label19.TabIndex = 88;
-            label19.Text = "x1 + ";
-            label19.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons31.Font = new Font("Tahoma", 10F);
+            labelcons31.Location = new Point(137, 139);
+            labelcons31.Name = "labelcons31";
+            labelcons31.Size = new Size(49, 23);
+            labelcons31.TabIndex = 88;
+            labelcons31.Text = "x1 + ";
+            labelcons31.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label20
+            // labelcons32
             // 
-            label20.Font = new Font("Tahoma", 10F);
-            label20.Location = new Point(252, 139);
-            label20.Name = "label20";
-            label20.Size = new Size(49, 23);
-            label20.TabIndex = 90;
-            label20.Text = "x2 + ";
-            label20.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons32.Font = new Font("Tahoma", 10F);
+            labelcons32.Location = new Point(252, 139);
+            labelcons32.Name = "labelcons32";
+            labelcons32.Size = new Size(49, 23);
+            labelcons32.TabIndex = 90;
+            labelcons32.Text = "x2 + ";
+            labelcons32.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // rhs2
             // 
             rhs2.Location = new Point(719, 93);
             rhs2.Name = "rhs2";
-            rhs2.Size = new Size(57, 23);
+            rhs2.Size = new Size(57, 22);
             rhs2.TabIndex = 85;
             // 
-            // label13
+            // labelcons24
             // 
-            label13.Font = new Font("Tahoma", 10F);
-            label13.Location = new Point(488, 94);
-            label13.Name = "label13";
-            label13.Size = new Size(49, 23);
-            label13.TabIndex = 84;
-            label13.Text = "x4 ";
-            label13.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons24.Font = new Font("Tahoma", 10F);
+            labelcons24.Location = new Point(488, 94);
+            labelcons24.Name = "labelcons24";
+            labelcons24.Size = new Size(49, 23);
+            labelcons24.TabIndex = 84;
+            labelcons24.Text = "x4 ";
+            labelcons24.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label14
+            // labelcons23
             // 
-            label14.Font = new Font("Tahoma", 10F);
-            label14.Location = new Point(370, 94);
-            label14.Name = "label14";
-            label14.Size = new Size(49, 23);
-            label14.TabIndex = 82;
-            label14.Text = "x3 + ";
-            label14.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons23.Font = new Font("Tahoma", 10F);
+            labelcons23.Location = new Point(370, 94);
+            labelcons23.Name = "labelcons23";
+            labelcons23.Size = new Size(49, 23);
+            labelcons23.TabIndex = 82;
+            labelcons23.Text = "x3 + ";
+            labelcons23.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label15
+            // labelcons21
             // 
-            label15.Font = new Font("Tahoma", 10F);
-            label15.Location = new Point(137, 94);
-            label15.Name = "label15";
-            label15.Size = new Size(49, 23);
-            label15.TabIndex = 78;
-            label15.Text = "x1 + ";
-            label15.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons21.Font = new Font("Tahoma", 10F);
+            labelcons21.Location = new Point(137, 94);
+            labelcons21.Name = "labelcons21";
+            labelcons21.Size = new Size(49, 23);
+            labelcons21.TabIndex = 78;
+            labelcons21.Text = "x1 + ";
+            labelcons21.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label16
+            // labelcons22
             // 
-            label16.Font = new Font("Tahoma", 10F);
-            label16.Location = new Point(252, 94);
-            label16.Name = "label16";
-            label16.Size = new Size(49, 23);
-            label16.TabIndex = 80;
-            label16.Text = "x2 + ";
-            label16.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons22.Font = new Font("Tahoma", 10F);
+            labelcons22.Location = new Point(252, 94);
+            labelcons22.Name = "labelcons22";
+            labelcons22.Size = new Size(49, 23);
+            labelcons22.TabIndex = 80;
+            labelcons22.Text = "x2 + ";
+            labelcons22.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // rhs1
             // 
             rhs1.Location = new Point(719, 50);
             rhs1.Name = "rhs1";
-            rhs1.Size = new Size(57, 23);
+            rhs1.Size = new Size(57, 22);
             rhs1.TabIndex = 75;
             // 
-            // label9
-            // 
-            label9.Font = new Font("Tahoma", 10F);
-            label9.Location = new Point(488, 53);
-            label9.Name = "label9";
-            label9.Size = new Size(49, 23);
-            label9.TabIndex = 74;
-            label9.Text = "x4+ ";
-            label9.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label11
-            // 
-            label11.Font = new Font("Tahoma", 10F);
-            label11.Location = new Point(370, 50);
-            label11.Name = "label11";
-            label11.Size = new Size(49, 23);
-            label11.TabIndex = 72;
-            label11.Text = "x3 + ";
-            label11.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label12
-            // 
-            label12.Font = new Font("Tahoma", 10F);
-            label12.Location = new Point(137, 50);
-            label12.Name = "label12";
-            label12.Size = new Size(49, 23);
-            label12.TabIndex = 68;
-            label12.Text = "x1 + ";
-            label12.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label30
-            // 
-            label30.Font = new Font("Tahoma", 10F);
-            label30.Location = new Point(252, 50);
-            label30.Name = "label30";
-            label30.Size = new Size(49, 23);
-            label30.TabIndex = 70;
-            label30.Text = "x2 + ";
-            label30.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.WhiteSmoke;
-            panel3.Controls.Add(label58);
-            panel3.Controls.Add(label57);
-            panel3.Controls.Add(label48);
-            panel3.Controls.Add(label47);
-            panel3.Controls.Add(label46);
-            panel3.Controls.Add(label45);
-            panel3.Controls.Add(variable4);
-            panel3.Controls.Add(variable3);
-            panel3.Controls.Add(variable22);
-            panel3.Controls.Add(variable11);
-            panel3.Controls.Add(label49);
-            panel3.Controls.Add(label50);
-            panel3.Controls.Add(label51);
-            panel3.Controls.Add(label52);
-            panel3.Controls.Add(label53);
-            panel3.Controls.Add(label54);
-            panel3.Controls.Add(label55);
-            panel3.Controls.Add(label56);
-            panel3.Controls.Add(label60);
-            panel3.Controls.Add(label62);
-            panel3.Location = new Point(-6, 90);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(1487, 110);
-            panel3.TabIndex = 59;
-            panel3.Paint += panel1_Paint;
-            // 
-            // label48
-            // 
-            label48.Font = new Font("Tahoma", 10F);
-            label48.Location = new Point(430, 47);
-            label48.Name = "label48";
-            label48.Size = new Size(37, 20);
-            label48.TabIndex = 138;
-            label48.Text = "x4+";
-            // 
-            // label47
-            // 
-            label47.Font = new Font("Tahoma", 10F);
-            label47.Location = new Point(355, 47);
-            label47.Name = "label47";
-            label47.Size = new Size(37, 20);
-            label47.TabIndex = 137;
-            label47.Text = "x3+";
-            // 
-            // label46
-            // 
-            label46.Font = new Font("Tahoma", 10F);
-            label46.Location = new Point(284, 46);
-            label46.Name = "label46";
-            label46.Size = new Size(37, 20);
-            label46.TabIndex = 136;
-            label46.Text = "x2+";
-            // 
-            // label45
-            // 
-            label45.Font = new Font("Tahoma", 10F);
-            label45.Location = new Point(203, 47);
-            label45.Name = "label45";
-            label45.Size = new Size(37, 20);
-            label45.TabIndex = 135;
-            label45.Text = "x1+";
-            // 
-            // variable4
-            // 
-            variable4.Font = new Font("Tahoma", 10F);
-            variable4.Location = new Point(394, 47);
-            variable4.Name = "variable4";
-            variable4.Size = new Size(46, 20);
-            variable4.TabIndex = 134;
-            variable4.Text = "x4+";
-            // 
-            // variable3
-            // 
-            variable3.Font = new Font("Tahoma", 10F);
-            variable3.Location = new Point(322, 47);
-            variable3.Name = "variable3";
-            variable3.Size = new Size(48, 20);
-            variable3.TabIndex = 133;
-            variable3.Text = "x3 +";
-            // 
-            // variable22
-            // 
-            variable22.Font = new Font("Tahoma", 10F);
-            variable22.Location = new Point(246, 47);
-            variable22.Name = "variable22";
-            variable22.Size = new Size(38, 20);
-            variable22.TabIndex = 132;
-            variable22.Text = "x2 +";
-            // 
-            // variable11
-            // 
-            variable11.Font = new Font("Tahoma", 10F);
-            variable11.Location = new Point(174, 47);
-            variable11.Name = "variable11";
-            variable11.Size = new Size(33, 20);
-            variable11.TabIndex = 131;
-            variable11.Text = "x1";
-            variable11.Click += variable1_Click;
-            // 
-            // label49
-            // 
-            label49.Font = new Font("Tahoma", 10F);
-            label49.Location = new Point(895, 45);
-            label49.Name = "label49";
-            label49.Size = new Size(70, 22);
-            label49.TabIndex = 130;
-            label49.Text = "+ Ma";
-            // 
-            // label50
-            // 
-            label50.Font = new Font("Tahoma", 10F);
-            label50.Location = new Point(851, 47);
-            label50.Name = "label50";
-            label50.Size = new Size(70, 22);
-            label50.TabIndex = 129;
-            label50.Text = "+ Ma";
-            // 
-            // label51
-            // 
-            label51.Font = new Font("Tahoma", 10F);
-            label51.Location = new Point(809, 47);
-            label51.Name = "label51";
-            label51.Size = new Size(70, 22);
-            label51.TabIndex = 128;
-            label51.Text = "+ Ma";
-            // 
-            // label52
-            // 
-            label52.Font = new Font("Tahoma", 10F);
-            label52.Location = new Point(766, 47);
-            label52.Name = "label52";
-            label52.Size = new Size(70, 22);
-            label52.TabIndex = 127;
-            label52.Text = "+ Ma";
-            // 
-            // label53
-            // 
-            label53.Font = new Font("Tahoma", 10F);
-            label53.Location = new Point(724, 47);
-            label53.Name = "label53";
-            label53.Size = new Size(70, 22);
-            label53.TabIndex = 126;
-            label53.Text = "+ Ma";
-            // 
-            // label54
-            // 
-            label54.Font = new Font("Tahoma", 10F);
-            label54.Location = new Point(569, 44);
-            label54.Name = "label54";
-            label54.Size = new Size(42, 23);
-            label54.TabIndex = 73;
-            label54.Text = "s3+";
-            label54.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label55
-            // 
-            label55.Font = new Font("Tahoma", 10F);
-            label55.Location = new Point(526, 44);
-            label55.Name = "label55";
-            label55.Size = new Size(48, 23);
-            label55.TabIndex = 71;
-            label55.Text = "s2 +";
-            label55.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label56
-            // 
-            label56.Font = new Font("Tahoma", 10F);
-            label56.Location = new Point(473, 44);
-            label56.Name = "label56";
-            label56.Size = new Size(49, 23);
-            label56.TabIndex = 69;
-            label56.Text = "s1 +";
-            label56.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label60
-            // 
-            label60.Font = new Font("Tahoma", 10F);
-            label60.Location = new Point(9, 43);
-            label60.Name = "label60";
-            label60.Size = new Size(122, 23);
-            label60.TabIndex = 57;
-            label60.Text = "Minimize Z = ";
-            label60.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label62
-            // 
-            label62.Font = new Font("Tahoma", 10F);
-            label62.Location = new Point(115, 42);
-            label62.Name = "label62";
-            label62.Size = new Size(76, 23);
-            label62.TabIndex = 59;
-            label62.Text = "f(x) = ";
-            label62.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label57
-            // 
-            label57.Font = new Font("Tahoma", 10F);
-            label57.Location = new Point(614, 44);
-            label57.Name = "label57";
-            label57.Size = new Size(42, 23);
-            label57.TabIndex = 139;
-            label57.Text = "s4+";
-            label57.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label58
-            // 
-            label58.Font = new Font("Tahoma", 10F);
-            label58.Location = new Point(662, 44);
-            label58.Name = "label58";
-            label58.Size = new Size(42, 23);
-            label58.TabIndex = 140;
-            label58.Text = "s5+";
-            label58.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // lblconstraint4
-            // 
-            lblconstraint4.Font = new Font("Tahoma", 10F);
-            lblconstraint4.Location = new Point(435, 54);
-            lblconstraint4.Name = "lblconstraint4";
-            lblconstraint4.Size = new Size(37, 20);
-            lblconstraint4.TabIndex = 144;
-            lblconstraint4.Text = "x4+";
-            // 
-            // lblconstraint3
-            // 
-            lblconstraint3.Font = new Font("Tahoma", 10F);
-            lblconstraint3.Location = new Point(316, 53);
-            lblconstraint3.Name = "lblconstraint3";
-            lblconstraint3.Size = new Size(48, 20);
-            lblconstraint3.TabIndex = 143;
-            lblconstraint3.Text = "x3 +";
-            // 
-            // lblconstraint2
-            // 
-            lblconstraint2.Font = new Font("Tahoma", 10F);
-            lblconstraint2.Location = new Point(199, 54);
-            lblconstraint2.Name = "lblconstraint2";
-            lblconstraint2.Size = new Size(38, 20);
-            lblconstraint2.TabIndex = 142;
-            lblconstraint2.Text = "x2 +";
-            // 
-            // lblconstraint1
-            // 
-            lblconstraint1.Font = new Font("Tahoma", 10F);
-            lblconstraint1.Location = new Point(92, 53);
-            lblconstraint1.Name = "lblconstraint1";
-            lblconstraint1.Size = new Size(33, 20);
-            lblconstraint1.TabIndex = 141;
-            lblconstraint1.Text = "x1";
-            // 
-            // lblconstraint24
-            // 
-            lblconstraint24.Font = new Font("Tahoma", 10F);
-            lblconstraint24.Location = new Point(435, 98);
-            lblconstraint24.Name = "lblconstraint24";
-            lblconstraint24.Size = new Size(37, 20);
-            lblconstraint24.TabIndex = 187;
-            lblconstraint24.Text = "x4+";
-            // 
-            // lblconstraint23
-            // 
-            lblconstraint23.Font = new Font("Tahoma", 10F);
-            lblconstraint23.Location = new Point(316, 97);
-            lblconstraint23.Name = "lblconstraint23";
-            lblconstraint23.Size = new Size(48, 20);
-            lblconstraint23.TabIndex = 186;
-            lblconstraint23.Text = "x3 +";
-            // 
-            // lblconstraint22
-            // 
-            lblconstraint22.Font = new Font("Tahoma", 10F);
-            lblconstraint22.Location = new Point(199, 98);
-            lblconstraint22.Name = "lblconstraint22";
-            lblconstraint22.Size = new Size(38, 20);
-            lblconstraint22.TabIndex = 185;
-            lblconstraint22.Text = "x2 +";
-            // 
-            // lblconstraint21
-            // 
-            lblconstraint21.Font = new Font("Tahoma", 10F);
-            lblconstraint21.Location = new Point(92, 97);
-            lblconstraint21.Name = "lblconstraint21";
-            lblconstraint21.Size = new Size(33, 20);
-            lblconstraint21.TabIndex = 184;
-            lblconstraint21.Text = "x1";
-            // 
-            // lblconstraint34
-            // 
-            lblconstraint34.Font = new Font("Tahoma", 10F);
-            lblconstraint34.Location = new Point(435, 143);
-            lblconstraint34.Name = "lblconstraint34";
-            lblconstraint34.Size = new Size(37, 20);
-            lblconstraint34.TabIndex = 191;
-            lblconstraint34.Text = "x4+";
-            // 
-            // lblconstraint33
-            // 
-            lblconstraint33.Font = new Font("Tahoma", 10F);
-            lblconstraint33.Location = new Point(316, 142);
-            lblconstraint33.Name = "lblconstraint33";
-            lblconstraint33.Size = new Size(48, 20);
-            lblconstraint33.TabIndex = 190;
-            lblconstraint33.Text = "x3 +";
-            // 
-            // lblconstraint32
-            // 
-            lblconstraint32.Font = new Font("Tahoma", 10F);
-            lblconstraint32.Location = new Point(199, 143);
-            lblconstraint32.Name = "lblconstraint32";
-            lblconstraint32.Size = new Size(38, 20);
-            lblconstraint32.TabIndex = 189;
-            lblconstraint32.Text = "x2 +";
-            // 
-            // lblconstraint31
-            // 
-            lblconstraint31.Font = new Font("Tahoma", 10F);
-            lblconstraint31.Location = new Point(92, 142);
-            lblconstraint31.Name = "lblconstraint31";
-            lblconstraint31.Size = new Size(33, 20);
-            lblconstraint31.TabIndex = 188;
-            lblconstraint31.Text = "x1";
-            // 
-            // lblconstraint44
-            // 
-            lblconstraint44.Font = new Font("Tahoma", 10F);
-            lblconstraint44.Location = new Point(435, 189);
-            lblconstraint44.Name = "lblconstraint44";
-            lblconstraint44.Size = new Size(37, 20);
-            lblconstraint44.TabIndex = 195;
-            lblconstraint44.Text = "x4+";
-            // 
-            // lblconstraint43
-            // 
-            lblconstraint43.Font = new Font("Tahoma", 10F);
-            lblconstraint43.Location = new Point(316, 188);
-            lblconstraint43.Name = "lblconstraint43";
-            lblconstraint43.Size = new Size(48, 20);
-            lblconstraint43.TabIndex = 194;
-            lblconstraint43.Text = "x3 +";
-            // 
-            // lblconstraint42
-            // 
-            lblconstraint42.Font = new Font("Tahoma", 10F);
-            lblconstraint42.Location = new Point(199, 189);
-            lblconstraint42.Name = "lblconstraint42";
-            lblconstraint42.Size = new Size(38, 20);
-            lblconstraint42.TabIndex = 193;
-            lblconstraint42.Text = "x2 +";
-            // 
-            // lblconstraint41
-            // 
-            lblconstraint41.Font = new Font("Tahoma", 10F);
-            lblconstraint41.Location = new Point(92, 188);
-            lblconstraint41.Name = "lblconstraint41";
-            lblconstraint41.Size = new Size(33, 20);
-            lblconstraint41.TabIndex = 192;
-            lblconstraint41.Text = "x1";
-            // 
-            // lblconstraint54
-            // 
-            lblconstraint54.Font = new Font("Tahoma", 10F);
-            lblconstraint54.Location = new Point(435, 236);
-            lblconstraint54.Name = "lblconstraint54";
-            lblconstraint54.Size = new Size(37, 20);
-            lblconstraint54.TabIndex = 199;
-            lblconstraint54.Text = "x4+";
-            // 
-            // lblconstraint53
-            // 
-            lblconstraint53.Font = new Font("Tahoma", 10F);
-            lblconstraint53.Location = new Point(316, 235);
-            lblconstraint53.Name = "lblconstraint53";
-            lblconstraint53.Size = new Size(48, 20);
-            lblconstraint53.TabIndex = 198;
-            lblconstraint53.Text = "x3 +";
-            // 
-            // lblconstraint52
-            // 
-            lblconstraint52.Font = new Font("Tahoma", 10F);
-            lblconstraint52.Location = new Point(199, 236);
-            lblconstraint52.Name = "lblconstraint52";
-            lblconstraint52.Size = new Size(38, 20);
-            lblconstraint52.TabIndex = 197;
-            lblconstraint52.Text = "x2 +";
-            // 
-            // lblconstraint51
-            // 
-            lblconstraint51.Font = new Font("Tahoma", 10F);
-            lblconstraint51.Location = new Point(92, 235);
-            lblconstraint51.Name = "lblconstraint51";
-            lblconstraint51.Size = new Size(33, 20);
-            lblconstraint51.TabIndex = 196;
-            lblconstraint51.Text = "x1";
+            // labelcons4
+            // 
+            labelcons4.Font = new Font("Tahoma", 10F);
+            labelcons4.Location = new Point(488, 53);
+            labelcons4.Name = "labelcons4";
+            labelcons4.Size = new Size(49, 23);
+            labelcons4.TabIndex = 74;
+            labelcons4.Text = "x4+ ";
+            labelcons4.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // labelcons3
+            // 
+            labelcons3.Font = new Font("Tahoma", 10F);
+            labelcons3.Location = new Point(370, 50);
+            labelcons3.Name = "labelcons3";
+            labelcons3.Size = new Size(49, 23);
+            labelcons3.TabIndex = 72;
+            labelcons3.Text = "x3 + ";
+            labelcons3.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // labelcons1
+            // 
+            labelcons1.Font = new Font("Tahoma", 10F);
+            labelcons1.Location = new Point(137, 50);
+            labelcons1.Name = "labelcons1";
+            labelcons1.Size = new Size(49, 23);
+            labelcons1.TabIndex = 68;
+            labelcons1.Text = "x1 + ";
+            labelcons1.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // labelcons2
+            // 
+            labelcons2.Font = new Font("Tahoma", 10F);
+            labelcons2.Location = new Point(252, 50);
+            labelcons2.Name = "labelcons2";
+            labelcons2.Size = new Size(49, 23);
+            labelcons2.TabIndex = 70;
+            labelcons2.Text = "x2 + ";
+            labelcons2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form2
             // 
@@ -1318,7 +1019,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1007, 681);
             Controls.Add(panel2);
-            Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(txt_title);
             MaximizeBox = false;
@@ -1328,7 +1028,6 @@
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -1352,30 +1051,30 @@
         private Label label32;
         private Label label31;
         private TextBox rhs5;
-        private Label label25;
-        private Label label27;
-        private Label label28;
-        private Label label29;
+        private Label labelcons55;
+        private Label labelcons53;
+        private Label labelcons51;
+        private Label labelcons52;
         private TextBox rhs4;
-        private Label label21;
-        private Label label22;
-        private Label label23;
-        private Label label24;
+        private Label labelcons44;
+        private Label labelcons43;
+        private Label labelcons41;
+        private Label labelcons42;
         private TextBox rhs3;
-        private Label label17;
-        private Label label18;
-        private Label label19;
-        private Label label20;
+        private Label labelcons34;
+        private Label labelcons33;
+        private Label labelcons31;
+        private Label labelcons32;
         private TextBox rhs2;
-        private Label label13;
-        private Label label14;
-        private Label label15;
-        private Label label16;
+        private Label labelcons24;
+        private Label labelcons23;
+        private Label labelcons21;
+        private Label labelcons22;
         private TextBox rhs1;
-        private Label label9;
-        private Label label11;
-        private Label label12;
-        private Label label30;
+        private Label labelcons4;
+        private Label labelcons3;
+        private Label labelcons1;
+        private Label labelcons2;
         private Label label10;
         private Label label38;
         private Label label37;
@@ -1394,39 +1093,13 @@
         private Label lblslacks22;
         private Label lblconstraint5;
         private Label label72;
-        private Label label88;
-        private Label label84;
-        private Label label80;
-        private Label label76;
-        private Label artificial1;
         private TextBox slack3;
         private TextBox slack2;
         private TextBox slack1;
         private Label variable1;
-        private Label label44;
-        private Label label43;
-        private Label variable2;
-        private Panel panel3;
         private Label variable4;
         private Label variable3;
-        private Label variable22;
-        private Label variable11;
-        private Label label49;
-        private Label label50;
-        private Label label51;
-        private Label label52;
-        private Label label53;
-        private Label label54;
-        private Label label55;
-        private Label label56;
-        private Label label60;
-        private Label label62;
-        private Label label46;
-        private Label label45;
-        private Label label48;
-        private Label label47;
-        private Label label58;
-        private Label label57;
+        private Label variable2;
         private Label lblconstraint54;
         private Label lblconstraint53;
         private Label lblconstraint52;

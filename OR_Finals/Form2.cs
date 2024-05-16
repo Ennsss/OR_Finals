@@ -23,19 +23,20 @@ namespace OR_Finals
             switch (constraintType)
             {
                 case ">=":
-                    labelText = "-s1";
+                    labelText = "-s" + labelName.Substring(labelName.Length - 1);
                     break;
                 case "=":
                     labelText = " ";
                     break;
                 case "<=":
-                    labelText = "+s1";
+                    labelText = "+s" + labelName.Substring(labelName.Length - 1);
                     break;
                 default:
                     labelText = string.Empty;
                     break;
             }
 
+            // Update the corresponding label based on the labelName
             switch (labelName)
             {
                 case "lblslacks1":
@@ -57,15 +58,16 @@ namespace OR_Finals
                     break;
             }
         }
+
         public void UpdateVariableLabel(string varText, int variableNumber)
         {
             switch (variableNumber)
             {
                 case 1:
-                    variable11.Text = varText;
+                    variable1.Text = varText;
                     break;
                 case 2:
-                    variable22.Text = varText;
+                    variable2.Text = varText;
                     break;
                 case 3:
                     variable3.Text = varText;

@@ -38,65 +38,65 @@
             btnSolve = new Button();
             label3 = new Label();
             panel1 = new Panel();
-            label7 = new Label();
+            labelx4 = new Label();
             txtVar4 = new TextBox();
-            label6 = new Label();
+            labelx3 = new Label();
             txtVar3 = new TextBox();
-            label5 = new Label();
+            labelx2 = new Label();
             txtVar2 = new TextBox();
             label26 = new Label();
             label4 = new Label();
             panel2 = new Panel();
             txtrhs5 = new TextBox();
             cbtypofcons5 = new ComboBox();
-            label25 = new Label();
+            labelcons54 = new Label();
             cons54 = new TextBox();
             cons52 = new TextBox();
-            label27 = new Label();
-            label28 = new Label();
+            labelcons53 = new Label();
+            labelcons51 = new Label();
             cons53 = new TextBox();
             cons51 = new TextBox();
-            label29 = new Label();
+            labelcons52 = new Label();
             txtrhs4 = new TextBox();
             cbtypofcons4 = new ComboBox();
-            label21 = new Label();
+            labelcons44 = new Label();
             cons44 = new TextBox();
             cons42 = new TextBox();
-            label22 = new Label();
-            label23 = new Label();
+            labelcons43 = new Label();
+            labelcons41 = new Label();
             cons43 = new TextBox();
             cons41 = new TextBox();
-            label24 = new Label();
+            labelcons42 = new Label();
             txtrhs3 = new TextBox();
             cbtypofcons3 = new ComboBox();
-            label17 = new Label();
+            labelcons34 = new Label();
             cons34 = new TextBox();
             cons32 = new TextBox();
-            label18 = new Label();
-            label19 = new Label();
+            labelcons33 = new Label();
+            labelcons31 = new Label();
             cons33 = new TextBox();
             cons31 = new TextBox();
-            label20 = new Label();
+            labelcons32 = new Label();
             txtrhs2 = new TextBox();
             cbtypofcons2 = new ComboBox();
-            label13 = new Label();
+            labelcons24 = new Label();
             cons24 = new TextBox();
             cons22 = new TextBox();
-            label14 = new Label();
-            label15 = new Label();
+            labelcons23 = new Label();
+            labelcons21 = new Label();
             cons23 = new TextBox();
             cons21 = new TextBox();
-            label16 = new Label();
+            labelcons22 = new Label();
             txtrhs1 = new TextBox();
-            label9 = new Label();
+            labelcons4 = new Label();
             label8 = new Label();
             cons4 = new TextBox();
             cons2 = new TextBox();
-            label10 = new Label();
+            labelcons3 = new Label();
             label12 = new Label();
             cons3 = new TextBox();
             cons1 = new TextBox();
-            label11 = new Label();
+            labelcons2 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -109,6 +109,7 @@
             cbNoofCons.Name = "cbNoofCons";
             cbNoofCons.Size = new Size(60, 23);
             cbNoofCons.TabIndex = 0;
+            cbNoofCons.SelectedIndexChanged += cbNoofCons_SelectedIndexChanged;
             // 
             // cbNoofVar
             // 
@@ -118,6 +119,7 @@
             cbNoofVar.Name = "cbNoofVar";
             cbNoofVar.Size = new Size(60, 23);
             cbNoofVar.TabIndex = 1;
+            cbNoofVar.SelectedIndexChanged += cbNoofVar_SelectedIndexChanged;
             // 
             // label1
             // 
@@ -195,15 +197,15 @@
             // panel1
             // 
             panel1.BackColor = Color.WhiteSmoke;
-            panel1.Controls.Add(label7);
+            panel1.Controls.Add(labelx4);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(txtVar4);
             panel1.Controls.Add(cbNoofCons);
-            panel1.Controls.Add(label6);
+            panel1.Controls.Add(labelx3);
             panel1.Controls.Add(cbNoofVar);
             panel1.Controls.Add(txtVar3);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(label5);
+            panel1.Controls.Add(labelx2);
             panel1.Controls.Add(txtVar1);
             panel1.Controls.Add(txtVar2);
             panel1.Controls.Add(label3);
@@ -214,15 +216,15 @@
             panel1.Size = new Size(1008, 110);
             panel1.TabIndex = 58;
             // 
-            // label7
+            // labelx4
             // 
-            label7.Font = new Font("Tahoma", 10F);
-            label7.Location = new Point(907, 57);
-            label7.Name = "label7";
-            label7.Size = new Size(49, 23);
-            label7.TabIndex = 66;
-            label7.Text = "x4 ";
-            label7.TextAlign = ContentAlignment.MiddleCenter;
+            labelx4.Font = new Font("Tahoma", 10F);
+            labelx4.Location = new Point(907, 57);
+            labelx4.Name = "labelx4";
+            labelx4.Size = new Size(49, 23);
+            labelx4.TabIndex = 66;
+            labelx4.Text = "x4 ";
+            labelx4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtVar4
             // 
@@ -232,15 +234,15 @@
             txtVar4.TabIndex = 65;
             txtVar4.TextChanged += txtVar4_TextChanged;
             // 
-            // label6
+            // labelx3
             // 
-            label6.Font = new Font("Tahoma", 10F);
-            label6.Location = new Point(789, 57);
-            label6.Name = "label6";
-            label6.Size = new Size(49, 23);
-            label6.TabIndex = 64;
-            label6.Text = "x3 + ";
-            label6.TextAlign = ContentAlignment.MiddleCenter;
+            labelx3.Font = new Font("Tahoma", 10F);
+            labelx3.Location = new Point(789, 57);
+            labelx3.Name = "labelx3";
+            labelx3.Size = new Size(49, 23);
+            labelx3.TabIndex = 64;
+            labelx3.Text = "x3 + ";
+            labelx3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtVar3
             // 
@@ -250,15 +252,15 @@
             txtVar3.TabIndex = 63;
             txtVar3.TextChanged += txtVar3_TextChanged;
             // 
-            // label5
+            // labelx2
             // 
-            label5.Font = new Font("Tahoma", 10F);
-            label5.Location = new Point(671, 57);
-            label5.Name = "label5";
-            label5.Size = new Size(49, 23);
-            label5.TabIndex = 62;
-            label5.Text = "x2 + ";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
+            labelx2.Font = new Font("Tahoma", 10F);
+            labelx2.Location = new Point(671, 57);
+            labelx2.Name = "labelx2";
+            labelx2.Size = new Size(49, 23);
+            labelx2.TabIndex = 62;
+            labelx2.Text = "x2 + ";
+            labelx2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtVar2
             // 
@@ -295,55 +297,55 @@
             panel2.Controls.Add(txtrhs5);
             panel2.Controls.Add(btnSolve);
             panel2.Controls.Add(cbtypofcons5);
-            panel2.Controls.Add(label25);
+            panel2.Controls.Add(labelcons54);
             panel2.Controls.Add(cons54);
             panel2.Controls.Add(cons52);
-            panel2.Controls.Add(label27);
-            panel2.Controls.Add(label28);
+            panel2.Controls.Add(labelcons53);
+            panel2.Controls.Add(labelcons51);
             panel2.Controls.Add(cons53);
             panel2.Controls.Add(cons51);
-            panel2.Controls.Add(label29);
+            panel2.Controls.Add(labelcons52);
             panel2.Controls.Add(txtrhs4);
             panel2.Controls.Add(cbtypofcons4);
-            panel2.Controls.Add(label21);
+            panel2.Controls.Add(labelcons44);
             panel2.Controls.Add(cons44);
             panel2.Controls.Add(cons42);
-            panel2.Controls.Add(label22);
-            panel2.Controls.Add(label23);
+            panel2.Controls.Add(labelcons43);
+            panel2.Controls.Add(labelcons41);
             panel2.Controls.Add(cons43);
             panel2.Controls.Add(cons41);
-            panel2.Controls.Add(label24);
+            panel2.Controls.Add(labelcons42);
             panel2.Controls.Add(txtrhs3);
             panel2.Controls.Add(cbtypofcons3);
-            panel2.Controls.Add(label17);
+            panel2.Controls.Add(labelcons34);
             panel2.Controls.Add(cons34);
             panel2.Controls.Add(cons32);
-            panel2.Controls.Add(label18);
-            panel2.Controls.Add(label19);
+            panel2.Controls.Add(labelcons33);
+            panel2.Controls.Add(labelcons31);
             panel2.Controls.Add(cons33);
             panel2.Controls.Add(cons31);
-            panel2.Controls.Add(label20);
+            panel2.Controls.Add(labelcons32);
             panel2.Controls.Add(txtrhs2);
             panel2.Controls.Add(cbtypofcons2);
-            panel2.Controls.Add(label13);
+            panel2.Controls.Add(labelcons24);
             panel2.Controls.Add(cons24);
             panel2.Controls.Add(cons22);
-            panel2.Controls.Add(label14);
-            panel2.Controls.Add(label15);
+            panel2.Controls.Add(labelcons23);
+            panel2.Controls.Add(labelcons21);
             panel2.Controls.Add(cons23);
             panel2.Controls.Add(cons21);
-            panel2.Controls.Add(label16);
+            panel2.Controls.Add(labelcons22);
             panel2.Controls.Add(txtrhs1);
             panel2.Controls.Add(cbtypofcons1);
-            panel2.Controls.Add(label9);
+            panel2.Controls.Add(labelcons4);
             panel2.Controls.Add(label8);
             panel2.Controls.Add(cons4);
             panel2.Controls.Add(cons2);
-            panel2.Controls.Add(label10);
+            panel2.Controls.Add(labelcons3);
             panel2.Controls.Add(label12);
             panel2.Controls.Add(cons3);
             panel2.Controls.Add(cons1);
-            panel2.Controls.Add(label11);
+            panel2.Controls.Add(labelcons2);
             panel2.Location = new Point(-2, 206);
             panel2.Name = "panel2";
             panel2.Size = new Size(1008, 476);
@@ -367,15 +369,15 @@
             cbtypofcons5.TabIndex = 106;
             cbtypofcons5.SelectedIndexChanged += cbtypofcons5_SelectedIndexChanged;
             // 
-            // label25
+            // labelcons54
             // 
-            label25.Font = new Font("Tahoma", 10F);
-            label25.Location = new Point(622, 282);
-            label25.Name = "label25";
-            label25.Size = new Size(49, 23);
-            label25.TabIndex = 114;
-            label25.Text = "x4 ";
-            label25.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons54.Font = new Font("Tahoma", 10F);
+            labelcons54.Location = new Point(622, 282);
+            labelcons54.Name = "labelcons54";
+            labelcons54.Size = new Size(49, 23);
+            labelcons54.TabIndex = 114;
+            labelcons54.Text = "x4 ";
+            labelcons54.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // cons54
             // 
@@ -392,25 +394,25 @@
             cons52.Size = new Size(57, 23);
             cons52.TabIndex = 109;
             // 
-            // label27
+            // labelcons53
             // 
-            label27.Font = new Font("Tahoma", 10F);
-            label27.Location = new Point(504, 282);
-            label27.Name = "label27";
-            label27.Size = new Size(49, 23);
-            label27.TabIndex = 112;
-            label27.Text = "x3 + ";
-            label27.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons53.Font = new Font("Tahoma", 10F);
+            labelcons53.Location = new Point(504, 282);
+            labelcons53.Name = "labelcons53";
+            labelcons53.Size = new Size(49, 23);
+            labelcons53.TabIndex = 112;
+            labelcons53.Text = "x3 + ";
+            labelcons53.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label28
+            // labelcons51
             // 
-            label28.Font = new Font("Tahoma", 10F);
-            label28.Location = new Point(271, 282);
-            label28.Name = "label28";
-            label28.Size = new Size(49, 23);
-            label28.TabIndex = 108;
-            label28.Text = "x1 + ";
-            label28.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons51.Font = new Font("Tahoma", 10F);
+            labelcons51.Location = new Point(271, 282);
+            labelcons51.Name = "labelcons51";
+            labelcons51.Size = new Size(49, 23);
+            labelcons51.TabIndex = 108;
+            labelcons51.Text = "x1 + ";
+            labelcons51.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // cons53
             // 
@@ -427,15 +429,15 @@
             cons51.TabIndex = 107;
             cons51.TextChanged += textBox29_TextChanged;
             // 
-            // label29
+            // labelcons52
             // 
-            label29.Font = new Font("Tahoma", 10F);
-            label29.Location = new Point(386, 282);
-            label29.Name = "label29";
-            label29.Size = new Size(49, 23);
-            label29.TabIndex = 110;
-            label29.Text = "x2 + ";
-            label29.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons52.Font = new Font("Tahoma", 10F);
+            labelcons52.Location = new Point(386, 282);
+            labelcons52.Name = "labelcons52";
+            labelcons52.Size = new Size(49, 23);
+            labelcons52.TabIndex = 110;
+            labelcons52.Text = "x2 + ";
+            labelcons52.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtrhs4
             // 
@@ -454,15 +456,15 @@
             cbtypofcons4.TabIndex = 96;
             cbtypofcons4.SelectedIndexChanged += cbtypofcons4_SelectedIndexChanged;
             // 
-            // label21
+            // labelcons44
             // 
-            label21.Font = new Font("Tahoma", 10F);
-            label21.Location = new Point(622, 235);
-            label21.Name = "label21";
-            label21.Size = new Size(49, 23);
-            label21.TabIndex = 104;
-            label21.Text = "x4 ";
-            label21.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons44.Font = new Font("Tahoma", 10F);
+            labelcons44.Location = new Point(622, 235);
+            labelcons44.Name = "labelcons44";
+            labelcons44.Size = new Size(49, 23);
+            labelcons44.TabIndex = 104;
+            labelcons44.Text = "x4 ";
+            labelcons44.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // cons44
             // 
@@ -479,25 +481,25 @@
             cons42.Size = new Size(57, 23);
             cons42.TabIndex = 99;
             // 
-            // label22
+            // labelcons43
             // 
-            label22.Font = new Font("Tahoma", 10F);
-            label22.Location = new Point(504, 235);
-            label22.Name = "label22";
-            label22.Size = new Size(49, 23);
-            label22.TabIndex = 102;
-            label22.Text = "x3 + ";
-            label22.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons43.Font = new Font("Tahoma", 10F);
+            labelcons43.Location = new Point(504, 235);
+            labelcons43.Name = "labelcons43";
+            labelcons43.Size = new Size(49, 23);
+            labelcons43.TabIndex = 102;
+            labelcons43.Text = "x3 + ";
+            labelcons43.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label23
+            // labelcons41
             // 
-            label23.Font = new Font("Tahoma", 10F);
-            label23.Location = new Point(271, 235);
-            label23.Name = "label23";
-            label23.Size = new Size(49, 23);
-            label23.TabIndex = 98;
-            label23.Text = "x1 + ";
-            label23.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons41.Font = new Font("Tahoma", 10F);
+            labelcons41.Location = new Point(271, 235);
+            labelcons41.Name = "labelcons41";
+            labelcons41.Size = new Size(49, 23);
+            labelcons41.TabIndex = 98;
+            labelcons41.Text = "x1 + ";
+            labelcons41.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // cons43
             // 
@@ -513,15 +515,15 @@
             cons41.Size = new Size(57, 23);
             cons41.TabIndex = 97;
             // 
-            // label24
+            // labelcons42
             // 
-            label24.Font = new Font("Tahoma", 10F);
-            label24.Location = new Point(386, 235);
-            label24.Name = "label24";
-            label24.Size = new Size(49, 23);
-            label24.TabIndex = 100;
-            label24.Text = "x2 + ";
-            label24.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons42.Font = new Font("Tahoma", 10F);
+            labelcons42.Location = new Point(386, 235);
+            labelcons42.Name = "labelcons42";
+            labelcons42.Size = new Size(49, 23);
+            labelcons42.TabIndex = 100;
+            labelcons42.Text = "x2 + ";
+            labelcons42.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtrhs3
             // 
@@ -540,15 +542,16 @@
             cbtypofcons3.TabIndex = 86;
             cbtypofcons3.SelectedIndexChanged += cbtypofcons3_SelectedIndexChanged;
             // 
-            // label17
+            // labelcons34
             // 
-            label17.Font = new Font("Tahoma", 10F);
-            label17.Location = new Point(622, 189);
-            label17.Name = "label17";
-            label17.Size = new Size(49, 23);
-            label17.TabIndex = 94;
-            label17.Text = "x4 ";
-            label17.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons34.Font = new Font("Tahoma", 10F);
+            labelcons34.Location = new Point(622, 189);
+            labelcons34.Name = "labelcons34";
+            labelcons34.Size = new Size(49, 23);
+            labelcons34.TabIndex = 94;
+            labelcons34.Text = "x4 ";
+            labelcons34.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons34.Click += labelcons34_Click;
             // 
             // cons34
             // 
@@ -564,25 +567,25 @@
             cons32.Size = new Size(57, 23);
             cons32.TabIndex = 89;
             // 
-            // label18
+            // labelcons33
             // 
-            label18.Font = new Font("Tahoma", 10F);
-            label18.Location = new Point(504, 189);
-            label18.Name = "label18";
-            label18.Size = new Size(49, 23);
-            label18.TabIndex = 92;
-            label18.Text = "x3 + ";
-            label18.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons33.Font = new Font("Tahoma", 10F);
+            labelcons33.Location = new Point(504, 189);
+            labelcons33.Name = "labelcons33";
+            labelcons33.Size = new Size(49, 23);
+            labelcons33.TabIndex = 92;
+            labelcons33.Text = "x3 + ";
+            labelcons33.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label19
+            // labelcons31
             // 
-            label19.Font = new Font("Tahoma", 10F);
-            label19.Location = new Point(271, 189);
-            label19.Name = "label19";
-            label19.Size = new Size(49, 23);
-            label19.TabIndex = 88;
-            label19.Text = "x1 + ";
-            label19.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons31.Font = new Font("Tahoma", 10F);
+            labelcons31.Location = new Point(271, 189);
+            labelcons31.Name = "labelcons31";
+            labelcons31.Size = new Size(49, 23);
+            labelcons31.TabIndex = 88;
+            labelcons31.Text = "x1 + ";
+            labelcons31.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // cons33
             // 
@@ -598,15 +601,15 @@
             cons31.Size = new Size(57, 23);
             cons31.TabIndex = 87;
             // 
-            // label20
+            // labelcons32
             // 
-            label20.Font = new Font("Tahoma", 10F);
-            label20.Location = new Point(386, 189);
-            label20.Name = "label20";
-            label20.Size = new Size(49, 23);
-            label20.TabIndex = 90;
-            label20.Text = "x2 + ";
-            label20.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons32.Font = new Font("Tahoma", 10F);
+            labelcons32.Location = new Point(386, 189);
+            labelcons32.Name = "labelcons32";
+            labelcons32.Size = new Size(49, 23);
+            labelcons32.TabIndex = 90;
+            labelcons32.Text = "x2 + ";
+            labelcons32.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtrhs2
             // 
@@ -625,15 +628,15 @@
             cbtypofcons2.TabIndex = 76;
             cbtypofcons2.SelectedIndexChanged += cbtypofcons2_SelectedIndexChanged;
             // 
-            // label13
+            // labelcons24
             // 
-            label13.Font = new Font("Tahoma", 10F);
-            label13.Location = new Point(622, 144);
-            label13.Name = "label13";
-            label13.Size = new Size(49, 23);
-            label13.TabIndex = 84;
-            label13.Text = "x4 ";
-            label13.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons24.Font = new Font("Tahoma", 10F);
+            labelcons24.Location = new Point(622, 144);
+            labelcons24.Name = "labelcons24";
+            labelcons24.Size = new Size(49, 23);
+            labelcons24.TabIndex = 84;
+            labelcons24.Text = "x4 ";
+            labelcons24.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // cons24
             // 
@@ -649,25 +652,25 @@
             cons22.Size = new Size(57, 23);
             cons22.TabIndex = 79;
             // 
-            // label14
+            // labelcons23
             // 
-            label14.Font = new Font("Tahoma", 10F);
-            label14.Location = new Point(504, 144);
-            label14.Name = "label14";
-            label14.Size = new Size(49, 23);
-            label14.TabIndex = 82;
-            label14.Text = "x3 + ";
-            label14.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons23.Font = new Font("Tahoma", 10F);
+            labelcons23.Location = new Point(504, 144);
+            labelcons23.Name = "labelcons23";
+            labelcons23.Size = new Size(49, 23);
+            labelcons23.TabIndex = 82;
+            labelcons23.Text = "x3 + ";
+            labelcons23.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label15
+            // labelcons21
             // 
-            label15.Font = new Font("Tahoma", 10F);
-            label15.Location = new Point(271, 144);
-            label15.Name = "label15";
-            label15.Size = new Size(49, 23);
-            label15.TabIndex = 78;
-            label15.Text = "x1 + ";
-            label15.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons21.Font = new Font("Tahoma", 10F);
+            labelcons21.Location = new Point(271, 144);
+            labelcons21.Name = "labelcons21";
+            labelcons21.Size = new Size(49, 23);
+            labelcons21.TabIndex = 78;
+            labelcons21.Text = "x1 + ";
+            labelcons21.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // cons23
             // 
@@ -683,15 +686,15 @@
             cons21.Size = new Size(57, 23);
             cons21.TabIndex = 77;
             // 
-            // label16
+            // labelcons22
             // 
-            label16.Font = new Font("Tahoma", 10F);
-            label16.Location = new Point(386, 144);
-            label16.Name = "label16";
-            label16.Size = new Size(49, 23);
-            label16.TabIndex = 80;
-            label16.Text = "x2 + ";
-            label16.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons22.Font = new Font("Tahoma", 10F);
+            labelcons22.Location = new Point(386, 144);
+            labelcons22.Name = "labelcons22";
+            labelcons22.Size = new Size(49, 23);
+            labelcons22.TabIndex = 80;
+            labelcons22.Text = "x2 + ";
+            labelcons22.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // txtrhs1
             // 
@@ -700,15 +703,15 @@
             txtrhs1.Size = new Size(57, 23);
             txtrhs1.TabIndex = 75;
             // 
-            // label9
+            // labelcons4
             // 
-            label9.Font = new Font("Tahoma", 10F);
-            label9.Location = new Point(622, 100);
-            label9.Name = "label9";
-            label9.Size = new Size(49, 23);
-            label9.TabIndex = 74;
-            label9.Text = "x4 ";
-            label9.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons4.Font = new Font("Tahoma", 10F);
+            labelcons4.Location = new Point(622, 100);
+            labelcons4.Name = "labelcons4";
+            labelcons4.Size = new Size(49, 23);
+            labelcons4.TabIndex = 74;
+            labelcons4.Text = "x4 ";
+            labelcons4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label8
             // 
@@ -735,15 +738,15 @@
             cons2.TabIndex = 69;
             cons2.TextChanged += textBox8_TextChanged;
             // 
-            // label10
+            // labelcons3
             // 
-            label10.Font = new Font("Tahoma", 10F);
-            label10.Location = new Point(504, 100);
-            label10.Name = "label10";
-            label10.Size = new Size(49, 23);
-            label10.TabIndex = 72;
-            label10.Text = "x3 + ";
-            label10.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons3.Font = new Font("Tahoma", 10F);
+            labelcons3.Location = new Point(504, 100);
+            labelcons3.Name = "labelcons3";
+            labelcons3.Size = new Size(49, 23);
+            labelcons3.TabIndex = 72;
+            labelcons3.Text = "x3 + ";
+            labelcons3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
@@ -769,15 +772,15 @@
             cons1.Size = new Size(57, 23);
             cons1.TabIndex = 67;
             // 
-            // label11
+            // labelcons2
             // 
-            label11.Font = new Font("Tahoma", 10F);
-            label11.Location = new Point(386, 100);
-            label11.Name = "label11";
-            label11.Size = new Size(49, 23);
-            label11.TabIndex = 70;
-            label11.Text = "x2 + ";
-            label11.TextAlign = ContentAlignment.MiddleCenter;
+            labelcons2.Font = new Font("Tahoma", 10F);
+            labelcons2.Location = new Point(386, 100);
+            labelcons2.Name = "labelcons2";
+            labelcons2.Size = new Size(49, 23);
+            labelcons2.TabIndex = 70;
+            labelcons2.Text = "x2 + ";
+            labelcons2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -811,62 +814,62 @@
         private Panel panel1;
         private Label label4;
         private Label label26;
-        private Label label7;
+        private Label labelx4;
         private TextBox txtVar4;
-        private Label label6;
+        private Label labelx3;
         private TextBox txtVar3;
-        private Label label5;
+        private Label labelx2;
         private TextBox txtVar2;
         private Panel panel2;
         private Label label8;
         private TextBox txtrhs1;
-        private Label label9;
+        private Label labelcons4;
         private TextBox cons4;
         private TextBox cons2;
-        private Label label10;
+        private Label labelcons3;
         private Label label12;
         private TextBox cons3;
         private TextBox cons1;
-        private Label label11;
+        private Label labelcons2;
         private TextBox txtrhs5;
         private ComboBox cbtypofcons5;
-        private Label label25;
+        private Label labelcons54;
         private TextBox cons54;
         private TextBox cons52;
-        private Label label27;
-        private Label label28;
+        private Label labelcons53;
+        private Label labelcons51;
         private TextBox cons53;
         private TextBox cons51;
-        private Label label29;
+        private Label labelcons52;
         private TextBox txtrhs4;
         private ComboBox cbtypofcons4;
-        private Label label21;
+        private Label labelcons44;
         private TextBox cons44;
         private TextBox cons42;
-        private Label label22;
-        private Label label23;
+        private Label labelcons43;
+        private Label labelcons41;
         private TextBox cons43;
         private TextBox cons41;
-        private Label label24;
+        private Label labelcons42;
         private TextBox txtrhs3;
         private ComboBox cbtypofcons3;
-        private Label label17;
+        private Label labelcons34;
         private TextBox cons34;
         private TextBox cons32;
-        private Label label18;
-        private Label label19;
+        private Label labelcons33;
+        private Label labelcons31;
         private TextBox cons33;
         private TextBox cons31;
-        private Label label20;
+        private Label labelcons32;
         private TextBox txtrhs2;
         private ComboBox cbtypofcons2;
-        private Label label13;
+        private Label labelcons24;
         private TextBox cons24;
         private TextBox cons22;
-        private Label label14;
-        private Label label15;
+        private Label labelcons23;
+        private Label labelcons21;
         private TextBox cons23;
         private TextBox cons21;
-        private Label label16;
+        private Label labelcons22;
     }
 }
