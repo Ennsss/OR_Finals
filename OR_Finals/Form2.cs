@@ -39,7 +39,7 @@ namespace OR_Finals
             switch (labelName)
             {
                 case "lblslacks1":
-                    lblslacks1.Text = labelText;
+                    lblconstraint5.Text = labelText;
                     break;
                 case "lblslacks22":
                     lblslacks22.Text = labelText;
@@ -78,7 +78,75 @@ namespace OR_Finals
                     break;
             }
         }
-
+        public void UpdateConstraintLabel(string ConstraintText, int ConstraintNumber)
+        {
+            switch (ConstraintNumber)
+            {
+                case 1:
+                    lblconstraint1.Text = ConstraintText;
+                    break;
+                case 2:
+                    lblconstraint2.Text = ConstraintText;
+                    break;
+                case 3:
+                    lblconstraint3.Text = ConstraintText;
+                    break;
+                case 4:
+                    lblconstraint4.Text = ConstraintText;
+                    break;
+                case 5:
+                    lblconstraint21.Text = ConstraintText;
+                    break;
+                case 6:
+                    lblconstraint22.Text = ConstraintText;
+                    break;
+                case 7:
+                    lblconstraint23.Text = ConstraintText;
+                    break;
+                case 8:
+                    lblconstraint24.Text = ConstraintText;
+                    break;
+                case 9:
+                    lblconstraint31.Text = ConstraintText;
+                    break;
+                case 10:
+                    lblconstraint32.Text = ConstraintText;
+                    break;
+                case 11:
+                    lblconstraint33.Text = ConstraintText;
+                    break;
+                case 12:
+                    lblconstraint34.Text = ConstraintText;
+                    break;
+                case 13:
+                    lblconstraint41.Text = ConstraintText;
+                    break;
+                case 14:
+                    lblconstraint42.Text = ConstraintText;
+                    break;
+                case 15:
+                    lblconstraint43.Text = ConstraintText;
+                    break;
+                case 16:
+                    lblconstraint44.Text = ConstraintText;
+                    break;
+                case 17:
+                    lblconstraint51.Text = ConstraintText;
+                    break;
+                case 18:
+                    lblconstraint52.Text = ConstraintText;
+                    break;
+                case 19:
+                    lblconstraint53.Text = ConstraintText;
+                    break;
+                case 20:
+                    lblconstraint54.Text = ConstraintText;
+                    break;
+                default:
+                  
+                    break;
+            }
+        }
 
 
 
